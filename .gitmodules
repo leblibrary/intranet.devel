@@ -4,3 +4,9 @@
 [submodule "intranet/themes/initio"]
 	path = intranet/themes/initio
 	url = https://github.com/miguelsimoni/hugo-initio.git
+[submodule "intranet/themes/hugo-apps-theme"]
+	path = intranet/themes/hugo-apps-theme
+	url = https://github.com/gonapps-org/hugo-apps-theme.git
+[submodule "intranet/themes/hugo-universal-theme"]
+	path = intranet/themes/hugo-universal-theme
+	url = https://github.com/devcows/hugo-universal-theme.git

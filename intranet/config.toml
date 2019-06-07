@@ -1,104 +1,179 @@
-baseURL = "/"
+baseurl = "https://example.org"
+title = "Universal"
+theme = "hugo-universal-theme"
+themesDir = "themes"
 languageCode = "en-us"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
-theme = "initio"
-publishDir = "docs"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+# Define the number of posts per page
+paginate = 10
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    identifier="home"
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier="blog"
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "faq"
+    name = "FAQ"
+    url  = "/faq/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 1
+    name = "GitHub"
+    url = "https://github.com/devcows/hugo-universal-theme"
+    pre = "<i class='fa fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "http://facebook.com"
+    pre = "<i class='fa fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 3
+    name = "Twitter"
+    url = "http://twitter.com"
+    pre = "<i class='fa fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+    weight = 4
+    name = "Email"
+    url = "mailto:your@email.com"
+    pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
-    name = "Anthony Russel"
-    description = "A mystery person"
-    email = "anthony.russel42@example.com"
-    phone = "+234 23 9873237"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
-    year = 2017
-    avatar = "images/guy.jpg"
-    background = ""
-    favicon = "images/gt_favicon.png"
-    DateForm = "January 2, 2006"
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+    defaultKeywords = ["devows", "hugo", "go"]
+    defaultDescription = "Site template made by devcows using hugo"
 
-    showSubheader = true
-    showServices = true
-    showRecentWorks = true
-    showDownload = true
-    showClients = true
+    # Twitter
+    twitter = "GoHugoIO"
+    twitterImage = "img/twitter-default.png"
 
-    footerEnableContact = true
-    footerEnableFollowme = true
-    footerEnableTextWidget = true
-    footerEnableFormWidget = true
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
-[[menu.main]]
-    name = "home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "blog"
-    url = "/post/"
-    weight = 5
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default"
 
-[params.disqus]
-    site = "hugo-initio-site.disqus.com"
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "your@email.com"
+    contact_form_ajax = false
 
-[params.sharethis]
-    property = "123456789012345678901234"
-    custom = true
+    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
-[params.google.analytics]
-    trackerID = "GA-000000000-0"
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
 
-[[params.social]]
-	title = "facebook"
-	url = "https://www.facebook.com/nickname"
-    icon = "fa-facebook-square"
-    footer = true
-    sharethis = true
-    network = "facebook"
-[[params.social]]
-	title = "twitter"
-	url = "https://twitter.com/nickname"
-    icon = "fa-twitter-square"
-    footer = true
-    sharethis = true
-    network = "twitter"
-[[params.social]]
-	title = "instagram"
-	url = "https://www.instagram.com/nickname"
-    icon = "fa-instagram"
-    footer = true
-    sharethis = false
-    network = ""
-[[params.social]]
-	title = "google+"
-	url = "https://plus.google.com/+nickname"
-    icon = "fa-google-plus-square"
-    footer = false
-    sharethis = true
-    network = "googleplus"
-[[params.social]]
-	title = "linkedin"
-	url = "https://www.linkedin.com/in/nickname"
-    icon = "fa-linkedin-square"
-    footer = false
-    sharethis = true
-    network = "linkedin"
-[[params.social]]
-	title = "tumblr"
-	url = "https://nickname.tumblr.com"
-    icon = "fa-tumblr-square"
-    footer = false
-    sharethis = false
-    network = "tumblr"
-[[params.social]]
-	title = "github"
-	url = "https://github.com/nickname"
-    icon = "fa-github"
-    footer = true
-    sharethis = false
-    network = ""
-[[params.social]]
-	title = "email"
-	url = "mailto:some.email@somewhere.com"
-    icon = "fa-envelope"
-    footer = false
-    sharethis = true
-    network = "email"
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
+    address = """<p><strong>Universal Ltd.</strong>
+        <br>13/25 New Avenue
+        <br>Newtown upon River
+        <br>45Y 73J
+        <br>England
+        <br>
+        <strong>Great Britain</strong>
+      </p>
+      """
+    latitude = "-12.043333"
+    longitude = "-77.028333"
+
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+      </p>
+      """
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carousel]
+    enable = false
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = false
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = false
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.see_more]
+    enable = true
+    icon = "fa fa-file-code-o"
+    title = "Do you want to see more?"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url = "#"
+    link_text = "Check other homepages"
+
+[params.clients]
+    enable = false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "Our Clients"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
