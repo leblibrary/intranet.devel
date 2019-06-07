@@ -1,0 +1,6 @@
+[submodule "intranet/themes/syna"]
+	path = intranet/themes/syna
+	url = https://github.com/okkur/syna.git
+[submodule "intranet/themes/initio"]
+	path = intranet/themes/initio
+	url = https://github.com/miguelsimoni/hugo-initio.git
