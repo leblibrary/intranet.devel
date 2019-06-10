@@ -1,0 +1,3 @@
+[submodule "intranet/themes/hugo-universal-theme"]
+	path = intranet/themes/hugo-universal-theme
+	url = https://github.com/devcows/hugo-universal-theme.git
