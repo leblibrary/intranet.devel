@@ -99,7 +99,7 @@ paginate = 10
     email = "intranet@leblibrary.com"
     contact_form_ajax = false
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    about_us = "<p>We are a library</p>"
     copyright = "Copyright (c) 2019, Lebanon Public Libraries; all rights reserved."
 
     # Format dates with Go's time formatting
@@ -123,12 +123,8 @@ paginate = 10
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = false
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-      </p>
-      """
+   enable = true
+   text = ""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
