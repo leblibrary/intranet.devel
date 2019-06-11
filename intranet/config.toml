@@ -27,19 +27,19 @@ paginate = 10
 [[menu.main]]
     identifier="blog"
     name = "Blog"
-    url  = "/blog/index.html"
+    url  = "/blog.html"
     weight = 2
 
 [[menu.main]]
     identifier = "faq"
     name = "FAQ"
-    url  = "/faq/index.html"
+    url  = "/faq.html"
     weight = 3
 
 [[menu.main]]
     identifier = "contact"
     name = "Contact"
-    url  = "/contact/"
+    url  = "/contact.html"
     weight = 4
 
 # Top bar social links menu
