@@ -1,5 +1,4 @@
 baseurl = "https://devel.intranet.leblibrary.com/"
-uglyurls = true
 title = "Intranet"
 theme = "hugo-universal-theme"
 themesDir = "themes"
@@ -27,13 +26,13 @@ paginate = 10
 [[menu.main]]
     identifier="blog"
     name = "Blog"
-    url  = "/blog/"
+    url  = "/blog/index.html"
     weight = 2
 
 [[menu.main]]
     identifier = "faq"
     name = "FAQ"
-    url  = "/faq/"
+    url  = "/faq/index.html"
     weight = 3
 
 [[menu.main]]
