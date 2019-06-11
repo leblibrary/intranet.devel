@@ -1,4 +1,4 @@
-baseurl = "https://intranet.leblibrary.com"
+baseurl = "http://leblibrary-intranet.s3-website.us-east-2.amazonaws.com/"
 title = "Intranet"
 theme = "hugo-universal-theme"
 themesDir = "themes"
