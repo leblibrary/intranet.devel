@@ -1,7 +1,7 @@
 ---
 title: "Newest Posts"
 date: 2019-06-11T14:25:39-04:00
-draft: true
+draft: false
 ---
 	
 
