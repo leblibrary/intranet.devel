@@ -14,7 +14,7 @@ phases:
       - dpkg -i hugo_${hugo_version}_Linux-64bit.deb
     finally:
       - hugo version
-  prebuild:
+  pre_build:
     commands:
       - git submodule init
       - git submodule update
