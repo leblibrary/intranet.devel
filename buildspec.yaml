@@ -11,7 +11,7 @@ phases:
       golang: 1.12
     commands:
       - wget "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.deb"
-      - sudo dpkg -i hugo_${hugo_version}_Linux-64bit.deb
+      - dpkg -i hugo_${hugo_version}_Linux-64bit.deb
     finally:
       - hugo version
   build:
