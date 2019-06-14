@@ -1,0 +1,5 @@
+weight: 4
+name: "Landfill Tickets"
+icon: "fa fa-ticket"
+description: "Record landfill ticket sales."
+url: "https://docs.google.com/spreadsheets/d/1sInSMxDlw9kXT8vvNchlgEs8vk3q-EnxUlECNtLNdEw/edit#gid=0"
