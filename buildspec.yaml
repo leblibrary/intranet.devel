@@ -17,7 +17,7 @@ phases:
   pre_build:
     commands:
       - git submodule init
-      - git submodule update
+      - git submodule update --remote
   build:
     commands:
       - cd intranet
