@@ -25,22 +25,28 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    identifier="blog"
-    name = "Blog"
-    url  = "/blog.html"
+    identifier="administration"
+    name = "Administration"
+    url  = "/administration.html"
     weight = 2
 
 [[menu.main]]
-    identifier = "faq"
-    name = "FAQ"
-    url  = "/faq.html"
+    identifier = "schedules"
+    name = "Schedules"
+    url  = "/schedules.html"
     weight = 3
+
+[[menu.main]]
+    identifier = "training"
+    name = "Training"
+    url  = "/training.html"
+    weight = 4
 
 [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url  = "/contact.html"
-    weight = 4
+    weight = 5
 
 # Top bar social links menu
 
