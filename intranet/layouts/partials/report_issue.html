@@ -13,34 +13,26 @@
                   <h3>Report an Issue</h3>
                 </div>
 
-                <div id="contact-message"></div>
+                <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://intranet.leblibrary.com/report-a-building-issue/">
+                    <div class="row issue-button">
 
-                <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://formspree.io/{{ .Site.Params.email }}">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                              <label for="name">Name</label>
-                                <input type="text" class="form-control" name="name" id="name" required>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label for="email">{{ i18n "contactMail" }}</label>
-                                <input type="text" class="form-control" name="email" id="email" required>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                              <label for="message">Please let us know if any shifts need coverage:</label>
-                                <textarea id="message" class="form-control" name="message" required></textarea>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-12 text-center">
-                          <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>{{ i18n "contactSend" }}</button>
+                        <div class="col-sm-6 text-center">
+                          <button type="button building-button" class="btn btn-template-main"><i class="fa fa-building-o"></i>Building Issue</button>
 
                         </div>
                     </div>
+                  </form>
+              
+                <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://help.leblibrary.com/">
+                    <div class="row issue-button">
+
+
+                        <div class="col-sm-6 text-center">
+                          <button type="button tech-button" class="btn btn-template-main"><i class="fa fa-laptop"></i>Tech Issue</button>
+
+                        </div>
+                    </div>
+
                     <!-- /.row -->
                 </form>
 

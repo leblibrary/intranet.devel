@@ -3,9 +3,11 @@
 {{ if gt (len .Site.Data.features) 0 }}
 <section class="bar background-white">
     <div class="container">
+
         {{ range $index, $element := sort .Site.Data.features "weight" }}
 		{{ if eq (mod $index 3) 0 }}
 		<div class="col-md-12">
+
             <div class="row">
 		{{ end }}
 				<div class="col-md-4">
@@ -23,6 +25,8 @@
 		{{ end }}
         {{ end }}
     </div>
+    <button class="btn button" type="button" name="button" onclick="multiLink()">Reference Tabs</button>
+
 </section>
 {{ end }}
 {{ end }}

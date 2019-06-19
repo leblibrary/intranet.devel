@@ -27,13 +27,13 @@ paginate = 10
 [[menu.main]]
     identifier="administration"
     name = "Administration"
-    url  = "/administration.html"
+    url  = "/admin"
     weight = 2
 
 [[menu.main]]
     identifier = "schedules"
     name = "Schedules"
-    url  = "/schedules.html"
+    url  = "https://calendar.google.com/calendar/r/week/"
     weight = 3
 
 [[menu.main]]

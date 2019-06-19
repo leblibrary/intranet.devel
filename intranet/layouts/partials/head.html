@@ -9,13 +9,13 @@
   {{ if .Keywords }}
   <meta name="keywords" content="{{ delimit .Keywords ", " }}">
   {{ else if .Site.Params.DefaultKeywords }}
-  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">	
+  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
   {{ end }}
 
   {{ if .Description }}
   <meta name="description" content="{{ .Description }}">
   {{ else if .Site.Params.DefaultDescription }}
-  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">	
+  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">
   {{ end }}
 
   {{ .Hugo.Generator }}
@@ -38,7 +38,6 @@
 
 
   <!-- Custom stylesheet - for your changes -->
-  <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">
 
   <!-- Responsivity for older IE -->
   {{ `
@@ -55,6 +54,7 @@
 
   <link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">
   <link href="{{ "css/owl.theme.css" | relURL}}" rel="stylesheet">
+  <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">
 
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 
