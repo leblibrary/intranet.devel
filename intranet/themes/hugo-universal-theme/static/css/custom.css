@@ -1,0 +1,24 @@
+/* your styles go here */
+
+#out_of_library {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+#report_issue form, #report_issue .row {
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+#report_issue {
+  display: flex;
+  justify-content: center;
+}
