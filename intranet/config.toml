@@ -27,7 +27,7 @@ paginate = 10
 [[menu.main]]
     identifier="administration"
     name = "Administration"
-    url  = "/admin"
+    url  = "/admin.html"
     weight = 2
 
 [[menu.main]]

@@ -3,6 +3,8 @@
 #out_of_library {
   padding-top: 75px;
   padding-bottom: 75px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .box-image-text .image {
@@ -18,7 +20,14 @@
   margin-left: 1em;
   margin-right: 1em;
 }
+
 #report_issue {
   display: flex;
   justify-content: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#report_issue .heading {
+  padding: 15px;
 }
