@@ -25,10 +25,39 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
+    identifier="reference"
+    name = "Reference"
+    url  = "/ref.html"
+    weight = 2
+
+[[menu.main]]
     identifier="administration"
     name = "Administration"
     url  = "/admin.html"
-    weight = 2
+    weight = 3
+
+    [[menu.main]]
+    identifier="policies"
+    name = "Policies"
+    parent = "administration"
+    url = "https://drive.google.com/drive/u/0/folders/1srNEl_ysIwldu_KFGQkWc-hW4EBgXaX3"
+    weight = 3.1
+
+    [[menu.main]]
+    identifier="procedures"
+    name = "Procedures"
+    parent = "administration"
+    url = "https://drive.google.com/drive/u/0/folders/1NOaMDqUQp1LqSGE-PmuhaOX__LzAGNH0"
+    weight = 3.2
+
+    [[menu.main]]
+    identifier="forms"
+    name = "Forms"
+    parent = "administration"
+    url = "https://intranet.leblibrary.com/administrative/forms-2/downloadable-forms/"
+    weight = 3.3
+
+
 
 [[menu.main]]
     identifier = "schedules"
@@ -48,22 +77,46 @@ paginate = 10
     url  = "/contact.html"
     weight = 5
 
+    [[menu.main]]
+    identifier="lib_extensions"
+    name = "Library Extensions"
+    parent = "contact"
+    url = "https://intranet.leblibrary.com/communication/extensions/"
+    weight = 5.1
+
+    [[menu.main]]
+    identifier="staff_dir"
+    name = "Internal Staff Directory"
+    parent = "contact"
+    url = "https://docs.google.com/spreadsheets/d/1Q1kC27vcRjcOPzp7boGpI5JIO-UdivEiB5V899qzPpk/edit#gid=0"
+    weight = 5.2
+
+
+    [[menu.main]]
+    identifier="city_dir"
+    name = "City Directory"
+    parent = "contact"
+    url = "https://lebanonnh.gov/Directory.aspx"
+    weight = 5.3
+
+
+
 # Top bar social links menu
 
 [[menu.topbar]]
-    weight = 1
+    weight = 3
     name = "GitHub"
     url = "https://github.com/leblibrary/"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
 [[menu.topbar]]
-    weight = 2
+    weight = 1
     name = "Facebook"
     url = "http://facebook.com/LebanonLibraries"
     pre = "<i class='fa fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
-    weight = 3
+    weight = 2
     name = "Twitter"
     url = "http://twitter.com/LebLibraries"
     pre = "<i class='fa fa-2x fa-twitter'></i>"

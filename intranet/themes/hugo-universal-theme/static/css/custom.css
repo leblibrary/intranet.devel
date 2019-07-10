@@ -33,8 +33,8 @@
 #report_issue {
   display: flex;
   justify-content: center;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 55px;
+  padding-bottom: 95px;
 }
 
 #report_issue .report_forms {
@@ -63,7 +63,19 @@ div.form-out-of-library {
     margin-left: auto;
 }
 
+button {
+  color: #6aae7a;
+  background-color: dim gray;
+}
 
+button:hover {
+  color: green; /*dark green isn't working*/
+  background-color: dim gray;
+}
+
+.input-group-btn:first-child>.btn {
+  border-radius: 2px;
+}
 
 /* home banner*/
 .header {
@@ -76,6 +88,14 @@ div.form-out-of-library {
 
 .header h1 {
   color: white;
+  display: inline-block;
+  border-bottom: solid 1px #ffffff;
+  line-height: 1.1;
+  margin-bottom: 10;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  letter-spacing: .02em;
+
 }
 
 .header p {
@@ -97,4 +117,13 @@ div.form-out-of-library {
 
 .btn {
   border-radius: 8px;
+}
+
+/*top bar*/
+#top .social a {
+  color: #ffffff;
+}
+
+#top {
+  background: #999999;
 }
