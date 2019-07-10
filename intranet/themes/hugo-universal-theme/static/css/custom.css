@@ -15,10 +15,19 @@
 .box-simple {
   min-height: 230px;
 }
-#report_issue form, #report_issue .row {
-  display: inline-block;
-  margin-left: 1em;
-  margin-right: 1em;
+
+/* report issue buttons*/
+.report_button {
+  margin-top: 1em;
+}
+
+.report_button .row {
+  margin: 0px;
+}
+
+.report_button .btn {
+  width: 100%;
+  padding: .5em;
 }
 
 #report_issue {
@@ -28,6 +37,64 @@
   padding-bottom: 75px;
 }
 
+#report_issue .report_forms {
+  width: 85%;
+}
+
 #report_issue .heading {
   padding: 15px;
+}
+
+/* out of library form */
+div.form-out-of-library {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*search bar */
+#top .container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%
+}
+
+#top .row {
+    width: 75%;
+    margin-left: auto;
+}
+
+
+
+/* home banner*/
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #6aae7a;
+  color: white;
+  font-size: 30px;
+}
+
+.header h1 {
+  color: white;
+}
+
+.header p {
+  font-size: .8em;
+}
+/*reference button*/
+.header .reference_btn {
+  padding: 10px 24px;
+}
+
+.reference_btn:hover {
+  background-color: #eeeeee;
+  color: #6aae7a;
+}
+
+.header div .div-button {
+  padding-top: 10px;
+}
+
+.btn {
+  border-radius: 8px;
 }

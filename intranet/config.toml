@@ -74,6 +74,8 @@ paginate = 10
     url = "mailto:library@leblibrary.com"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
+
+
 [params]
     viewMorePostLink = "/blog/"
     author = "Lebanon Public Libraries"
@@ -135,8 +137,8 @@ paginate = 10
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
-    tags = true
+    categories = false
+    tags = false
     search = true
 
 [params.carousel]

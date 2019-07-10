@@ -5,46 +5,11 @@
 
             <section>
 
-                {{ .Content }}
 
-                {{ if isset .Site.Params "email" }}
+              <a href="https://intranet.leblibrary.com/communication/extensions/">Library Extensions</a> <br/>
+              <a href="https://docs.google.com/spreadsheets/d/1Q1kC27vcRjcOPzp7boGpI5JIO-UdivEiB5V899qzPpk/edit#gid=0">Internal Staff Directory</a></br>
+              <a href="https://lebanonnh.gov/Directory.aspx">City Directory</a>
 
-                <div class="heading">
-                  <h3>{{ i18n "contactForm" }}</h3>
-                </div>
-
-                <div id="contact-message"></div>
-
-                <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://formspree.io/{{ .Site.Params.email }}">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                              <label for="name">{{ i18n "contactName" }}</label>
-                                <input type="text" class="form-control" name="name" id="name" required>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label for="email">{{ i18n "contactMail" }}</label>
-                                <input type="text" class="form-control" name="email" id="email" required>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                              <label for="message">{{ i18n "contactMessage" }}</label>
-                                <textarea id="message" class="form-control" name="message" required></textarea>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-12 text-center">
-                          <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>{{ i18n "contactSend" }}</button>
-
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </form>
-
-                {{ end }}
 
             </section>
 
