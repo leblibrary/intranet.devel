@@ -1,7 +1,6 @@
 ---
 title: "Reference"
 date: 2019-06-19T15:23:14-04:00
-draft: true
 ---
 <h3>Opening & Closing</h3>
 

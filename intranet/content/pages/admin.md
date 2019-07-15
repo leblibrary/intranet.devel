@@ -1,7 +1,6 @@
 ---
 title: "Administration"
 date: 2019-06-19T15:23:14-04:00
-draft: true
 ---
 
 <h3><a href="https://drive.google.com/drive/u/0/folders/1NOaMDqUQp1LqSGE-PmuhaOX__LzAGNH0" target="_blank">Procedures</a><br>
