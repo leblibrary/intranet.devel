@@ -101,6 +101,8 @@ button:hover {
 .header p {
   font-size: .8em;
 }
+
+
 /*reference button*/
 .header .reference_btn {
   padding: 10px 24px;
@@ -126,4 +128,10 @@ button:hover {
 
 #top {
   background: #999999;
+}
+
+/* drop down menu - hover */
+
+li.dropdown:hover ul {
+  display: block !important;
 }
