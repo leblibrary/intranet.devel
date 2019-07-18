@@ -1,24 +1,27 @@
 ---
 title: "Training"
 date: 2019-06-19T15:23:14-04:00
+id: "training"
 ---
 
-<h3>Onboarding Documents
+<div class="main">
+  <h3>Onboarding Documents</h3>
 
-Koha
+  <h3>Koha</h3>
 
-Google calendar
+  <h3>Google calendar</h3>
 
-Gmail
+  <h3>Gmail</h3>
 
-Slack
+  <h3>Slack</h3>
 
-Library Website
+  <h3>Library Website</h3>
 
-Tech Equipment</h3>
-<ul>
-  <li>Printer</li>
-  <li>Scan</li>
-  <li>Fax</li>
-  <li>AV Equipment</li>
-  </ul>
+  <h3>Tech Equipment</h3>
+  <ul>
+    <li>Printer</li>
+    <li>Scan</li>
+    <li>Fax</li>
+    <li>AV Equipment</li>
+    </ul>
+</div>

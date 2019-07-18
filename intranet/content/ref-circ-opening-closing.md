@@ -1,10 +1,11 @@
 ---
-title: "Reference"
+title: "Reference & Circulation"
 date: 2019-06-19T15:23:14-04:00
+id: "ref-circ"
 ---
 <h3>Opening & Closing</h3>
 
-<div class="ref_lebanon"
+<div class="ref_lebanon">
   <h4><strong>Lebanon Library</strong></h4>
     <ul>
       <li>Opening Instructions</li>
@@ -14,7 +15,7 @@ date: 2019-06-19T15:23:14-04:00
     </ul>
 </div>
 
-<div class="ref_kilton"
+<div class="ref_kilton">
   <h4><strong>Kilton Library</strong></h4>
     <ul>
       <li>Opening Instructions</li>
@@ -30,6 +31,7 @@ date: 2019-06-19T15:23:14-04:00
 
 <h3>Resources</h3>
 <ul>
+  <li>Museum Passes</li>
   <li>Novelist</li>
   <li>Obit Index</li>
   <li>Hours Database</li>
