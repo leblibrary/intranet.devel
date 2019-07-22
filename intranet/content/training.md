@@ -5,19 +5,50 @@ id: "training"
 ---
 
 <div class="main">
-  <h3>Onboarding Documents</h3>
+  <h3 id="onboarding">Onboarding Items</h3>
+  <ul>
+    <li>Koha Test Environment</li>
+    <li>Policies</li>
+    <li>Procedures</li>
+    <li>Kilton Library Checklist</li>
+    <li>Lebanon Library Checklist</li>
+
+    </ul>
 
   <h3>Koha</h3>
+  <ul>
+    <li>Test Environment</li>
+    <li>Instruction Manuals</li>
+    <li>Tasks to Practice</li>
+    <li>Cataloging</li>
+    </ul>
 
   <h3>Google calendar</h3>
+  <ul>
+    <li>Checking other calendars</li>
+    <li>Creating an event</li>
+    </ul>
 
   <h3>Gmail</h3>
+  <ul>
+    <li>Reference using Google Groups</li>
+      </ul>
 
-  <h3>Slack</h3>
+  <h3 id="slack">Slack</h3>
+  <ul>
+    <li>General messaging</li>
+    <li>Direct message</li>
+    </ul>
 
   <h3>Library Website</h3>
+  <ul>
+    <li>Programs</li>
+    <li>Catalog</li>
+    <li>Booking Calendar for Meeting Rooms</li>
+    <li>Editing pages</li>
+    </ul>
 
-  <h3>Tech Equipment</h3>
+  <h3 id="tech">Tech Equipment</h3>
   <ul>
     <li>Printer</li>
     <li>Scan</li>
