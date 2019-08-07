@@ -1,3 +1,7 @@
+
+
+
+
 <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
 
     <div class="navbar navbar-default yamm" role="navigation" id="navbar">
@@ -18,6 +22,7 @@
             </div>
             <!--/.navbar-header -->
 
+
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
                   {{ $current := . }}
@@ -32,7 +37,7 @@
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <a href="{{ .URL }}" target="_blank">{{ .Name }}</a>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
                     {{ end  }}
                   </li>
                   {{ end }}

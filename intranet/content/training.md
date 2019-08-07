@@ -34,6 +34,13 @@ id: "training"
     <li>Reference using Google Groups</li>
       </ul>
 
+  <h3>Google Drive</h3>
+  <ul>
+    <li>My Drive versus Shared Drive</li>
+    <li>Google Docs</li>
+    <li>Google Sheets</li>
+  </ul>
+
   <h3 id="slack">Slack</h3>
   <ul>
     <li>General messaging</li>
@@ -50,9 +57,16 @@ id: "training"
 
   <h3 id="tech">Tech Equipment</h3>
   <ul>
-    <li>Printer</li>
-    <li>Scan</li>
+    <li>Printers</li>
+    <ul>  
+      <li>Receipt Printers</li>
+      <ul>
+        <li>Changing Paper</li>
+        <li>Troubleshooting</li>
+      </ul>
+    </ul>
+    <li>Scanners</li>
     <li>Fax</li>
     <li>AV Equipment</li>
-    </ul>
+  </ul>
 </div>

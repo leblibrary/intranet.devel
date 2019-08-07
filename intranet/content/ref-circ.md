@@ -1,5 +1,5 @@
 ---
-title: "Reference & Circulation"
+title: "On Desk"
 date: 2019-06-19T15:23:14-04:00
 id: "ref-circ"
 ---
@@ -30,8 +30,23 @@ id: "ref-circ"
 
 <h3>Resources</h3>
 <ul>
+  <li>Readers Advisory</li>
+  <ul>
+    <li>Fantastic Fiction</li>
+    <li>What's Next...Books in Series</li>
+    <li>Novelist</li>
+    <li>NHU-PAC/NH State Library Catalog</li>
+    <li>Interlibrary Loan/Collection Development Form</li>
+  </ul>
+
+  <li>Programs</li>
+  <ul>
+    <li>Programming Signup Sheets</li>
+    <li>Summer Reading Programs</li>
+    <li>1000 Books Before Kindergarten</li>
+  </ul>
+  <li>Passwords and Fees</li>
   <li>Museum Passes</li>
-  <li>Novelist</li>
   <li>Obit Index</li>
   <li>Hours Database</li>
 </ul>
