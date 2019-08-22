@@ -1,11 +1,33 @@
 /* your styles go here */
 
-#out_of_library {
+/* out of library form */
+#out_of_library.container {
   padding-top: 75px;
   padding-bottom: 75px;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 200px;
+  padding-left: 200px;
 }
+
+div.form-out-of-library {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+#staff_picks.container {
+  display:flex;
+  justify-content: center;
+  padding-top: 75px;
+  padding:bottom: 75px;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+div.form-staff_picks {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 
 .box-image-text .image {
   min-height: 200px;
@@ -45,11 +67,6 @@
   padding: 15px;
 }
 
-/* out of library form */
-div.form-out-of-library {
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
 /*search bar */
 #top .container {
@@ -138,6 +155,10 @@ li.dropdown:hover ul {
 
 .sidenav {
   font-size: 14px;
-}
 
-.
+}/*work in progress - add search icon into text field*/
+input[type=search] {
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}

@@ -5,17 +5,18 @@ id: "emergency"
 ---
 
 <h1>Immediate Safety</h1>
-<p>If you feel unsafe, please do not hesitate to use the following options:<p>
+<p>If you or a patron feels unsafe, do not hesitate to use the following options:<p>
 
 <p><strong>Emergency button at desk</strong></p>
   <ul>
-    <li>This will notify the police, and they will arrive within x minutes. This is a great and quick option if it feels unsafe to place a phone call in front of patrons.</li>
+    <li>This will notify the police, and they will arrive within x minutes. This is a great and quick option, especially if it feels unsafe to place a phone call in front of patrons.</li>
   </ul>
 
-<p><strong>Call 911.</strong></p>
-<p><strong>Lebanon Library:></strong> Call from Amy's office if you would like privacy from patrons.</p>
-<p><strong>Kilton Library</strong></p>
-<p>Call from Sean's office if you would like privacy from patrons.</p>
+<p><strong>Call 911 or dispatch at 603-448-1212.</strong></p>
+<ul>
+  <li><strong>Lebanon Library:</strong> Call from Amy's office if you would like privacy from patrons.</li>
+  <li><strong>Kilton Library:</strong> Call from Sean's office if you would like privacy from patrons.</li>
+</ul>
 
 <h1>Snow</h1>
 <p>Call COMPANY at 603-000-0000 for plowing. Notify PERSON/allstaff Slack channel.</p>
@@ -35,23 +36,3 @@ id: "emergency"
 <h1>Fire</h1>
 
 <p>Call the fire department at 911. Notify PERSON/allstaff Slack channel.</p>
-
-
-<div class="main">
-  <h3 id="onboarding">Onboarding Items</h3>
-  <ul>
-    <li>Koha Test Environment</li>
-    <li>Policies</li>
-    <li>Procedures</li>
-    <li>Kilton Library Checklist</li>
-    <li>Lebanon Library Checklist</li>
-
-    </ul>
-
-
-  <h3 id="slack">Slack</h3>
-  <ul>
-    <li>General messaging</li>
-    <li>Direct message</li>
-    </ul>
-</div>
