@@ -80,19 +80,19 @@ div.form-staff_picks {
     margin-left: auto;
 }
 
-button {
-  color: #6aae7a;
-  background-color: dim gray;
+div.input-group .form-control:first-child {
+    border-radius: 15px;
+    background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png") top left no-repeat;
+    height: 30px;
+    padding-left: 30px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
 }
 
-button:hover {
-  color: green;
-  background-color: dim gray;
+.searchIcon {
+  padding: .5rem;
 }
 
-.input-group-btn:first-child>.btn {
-  border-radius: 2px;
-}
 
 /* home banner*/
 .header {
@@ -155,10 +155,3 @@ li.dropdown:hover ul {
 
 .sidenav {
   font-size: 14px;
-
-}/*work in progress - add search icon into text field*/
-input[type=search] {
-  background-image: url('searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-}

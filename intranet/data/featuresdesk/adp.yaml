@@ -1,0 +1,5 @@
+weight: 1
+name: "Koha"
+icon: "fa fa-clock-o"
+description: "Circulation and catalog."
+url: "https://koha.leblibrary.com"

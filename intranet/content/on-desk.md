@@ -4,8 +4,9 @@ date: 2019-06-19T15:23:14-04:00
 id: "on-desk"
 ---
 
+
 <div class="div-button">
-  <button type="button" class="btn btn-template-main reference_btn" onclick="multiLink()">Ref Tools</button>
+  <button type="button" class="btn btn-template-main reference_btn" onclick="multiLink()">Ref Tools</button>Opens all tabs for ADP, Slack, Email, Koha, Wekan, and the Booking Calendar. 
 </div>
 
 <h3>Tools</h3>
@@ -19,7 +20,6 @@ id: "on-desk"
 
 <strong>NHU-PAC/NH State Library Catalog:</strong>Check if other libraries have a patron's requested book.
 
-<h3>Resources</h3>
 <p><strong>Readers Advisory</p></strong>
   <ul>
     <li><a href="http://search.ebscohost.com/login.aspx?authtype=ip,cpid&custid=lebpub&profile=NOVPLUS" target="_blank">Novelist</a>: Find books to recommend to patrons.</li>
