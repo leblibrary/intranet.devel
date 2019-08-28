@@ -3,7 +3,7 @@ title: "Staff Handbook"
 date: 2019-06-19T15:23:14-04:00
 id: "admin"
 ---
-
+<div class="container">
 <h3><a href="https://drive.google.com/drive/u/0/folders/0AIt1Dx5FdaxSUk9PVA" target="_blank">Procedures</a></h3><br>
 
 
@@ -13,6 +13,7 @@ id: "admin"
 <h3><a href="https://app.docusign.com/templates?view=shared" target="_blank">DocuSign Forms</a></h3><br>
 
 <h3>Training:</h3>
+
 <div class="main">
   <h4 id="onboarding">Onboarding Items</h4>
   <ul>
@@ -80,4 +81,5 @@ id: "admin"
     <li>Fax</li>
     <li>AV Equipment</li>
   </ul>
+</div>
 </div>

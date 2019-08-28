@@ -157,14 +157,35 @@ paginate = 10
 
     logo = "img/leb-logo.jpg"
     logo_small = "img/leb-small-logo.png"
-    address = """<p><strong>Lebanon Public Libraries</strong>
-        <br>9 East Park St
-        <br>Lebanon
-        <br>New Hampshire
-        <br>03745
+    address = """<div class="contact"><i class="fa fa-envelope-o pull-left" aria-hidden="true"></i><p class="contact">library@leblibrary.com
         <br>
+        <br>
+        <strong>LEBANON LIBRARY</strong>
+        </p>
+        <i class="fa fa-location-arrow pull-left" aria-hidden="true"></i>
+        <p class="contact">9 East Park St
+        <br>     Lebanon, NH 03745</p>
+        <i class="fa fa-phone pull-left" aria-hidden="true"></i>
+        <p class="contact">(603) 448-2459
       </p>
-      """
+      <br>
+      <p class="address"><strong>KILTON LIBRARY</strong>
+          <br><i class="fa fa-location-arrow" aria-hidden="true"></i>80 S. Main St
+          <br>West Lebanon, NH 03784
+          <br><i class="fa fa-phone" aria-hidden="true"></i>(603) 298-8544
+          <br>
+        </p>
+        </div>
+        """
+    hours ="""<ul class="list-border">
+    <li class="clearfix text-white"><span> Monday - Thursday: </span>
+    <div class="value pull-right flip"> 10:00 am - 8:00 pm
+    </div></li>
+    <li class="clearfix text-white"><span> Friday - Sunday : </span>
+    <div class="value pull-right flip"> 10:00 am - 5:00 pm
+    </div></li>
+    </ul>
+     """
     latitude = "-43.642652"
     longitude = "-72.249.659"
 

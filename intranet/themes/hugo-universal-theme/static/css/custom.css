@@ -80,19 +80,56 @@ div.form-staff_picks {
     margin-left: auto;
 }
 
-div.input-group .form-control:first-child {
-    border-radius: 15px;
-    background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png") top left no-repeat;
-    height: 30px;
+/*Search bar and button styling*/
+
+.input-group .btn{
+  border-radius:50%;
+  position: absolute;
+  background-color: #7EC28A;
+  color: white;
+  top: 1px;
+  right: 1px;
+  z-index: 100;
+  width:38px;
+  height: 38px;
+}
+
+
+i.fa.fa-search {
+  position: relative;
+  right: 7px;
+  display: inline-block;
+  font-size: 1.3em;
+}
+
+.input-group .btn:hover {
+  color: white;
+  background-color: #6aae7a;
+}
+
+.input-group .form-control {
+    border-radius: 20px !important;
+    height: 40px;
     padding-left: 30px;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
+    font-size: 1.3em;
 }
 
-.searchIcon {
-  padding: .5rem;
+/*enlarge social icons*/
+.social .fa-2x{
+  font-size: 3em;
+  margin: 0px 15px;
 }
 
+
+/*top bar*/
+#top .social a {
+  color: #ffffff;
+  padding-right: 35px;
+}
+
+#top {
+  background: #999999;
+}
 
 /* home banner*/
 .header {
@@ -138,14 +175,7 @@ div.input-group .form-control:first-child {
   border-radius: 8px;
 }
 
-/*top bar*/
-#top .social a {
-  color: #ffffff;
-}
 
-#top {
-  background: #999999;
-}
 
 /* drop down menu - hover */
 
@@ -155,3 +185,20 @@ li.dropdown:hover ul {
 
 .sidenav {
   font-size: 14px;
+
+
+
+/*footer*/
+
+ #footer p .contact{
+    color: lightgray;
+    font-weight: bold;
+    text-align: right
+  }
+
+.list-border li {
+  border-bottom-style: dashed;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  box-sizing: border-border-box;
+}

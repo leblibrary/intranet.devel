@@ -4,6 +4,7 @@ date: 2019-08-19T15:23:14-04:00
 id: "emergency"
 ---
 
+<div class="container">
 <h1>Immediate Safety</h1>
 <p>If you or a patron feels unsafe, do not hesitate to use the following options:<p>
 
@@ -36,3 +37,4 @@ id: "emergency"
 <h1>Fire</h1>
 
 <p>Call the fire department at 911. Notify PERSON/allstaff Slack channel.</p>
+</div>
