@@ -6,7 +6,7 @@ id: "on-desk"
 
 
 <div class="div-button">
-  <button type="button" class="btn btn-template-main reference_btn" onclick="multiLink()">Ref Tools</button>Opens all tabs for ADP, Slack, Email, Koha, Wekan, and the Booking Calendar. 
+  <button type="button" class="btn btn-template-main reference_btn" onclick="multiLink()">Ref Tools</button>Opens all tabs for ADP, Slack, Email, Koha, Wekan, and the Booking Calendar.
 </div>
 
 <h3>Tools</h3>
@@ -16,9 +16,21 @@ id: "on-desk"
 
 <strong>Koha:</strong> Circulation and item management.
 
-<strong>Booking Calendar:</strong> Book meeting rooms.
+<strong>Slack:</strong> Communicate between staff.
 
-<strong>NHU-PAC/NH State Library Catalog:</strong>Check if other libraries have a patron's requested book.
+<strong>Reservations:</strong>
+<ul>
+<li><strong>Meeting Rooms:</strong> Booking system, policy.</li>
+<li><strong>Museum Passes:</strong>  Information on each museum (how many people, admission cost,general info on msueum), how to book one for a patron, and policy.</li>
+<li><strong>Telescopes:</strong> Link to catalog record, how to book telescope, policy?</li>
+</ul>
+
+<strong>ILL</strong>
+<ul>
+<li><strong>NHU-PAC/NH State Library Catalog:</strong> Check if other libraries have a patron's requested book.</li>
+<li>Interlibrary Loan/Collection Development Form</li>
+<li>How to do ILL</li>
+</ul>
 
 <p><strong>Readers Advisory</p></strong>
   <ul>
@@ -39,7 +51,3 @@ id: "on-desk"
 <p><strong>Research and Genealogy</strong></p>
   <li>Obit Index</li>
 </ul>
-
-<p><strong>Miscellaneous</strong></p>
-<li>Passwords and Fees</li>
-<li>Museum Passes</li>

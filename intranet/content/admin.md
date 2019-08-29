@@ -83,3 +83,5 @@ id: "admin"
   </ul>
 </div>
 </div>
+
+<h3>Passwords and Fees</h3>
