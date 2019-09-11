@@ -176,18 +176,24 @@ i.fa.fa-search {
 }
 
 
+/*sidenav*/
 
-/* drop down menu - hover */
-
-li.dropdown:hover ul {
-  display: block !important;
+#sidenav-desk.sidenav {
+  font-size: 1.3em;
+  max-width: 75%;
 }
 
-.sidenav {
-  font-size: 14px;
+.main {
+  margin-right: 30px;
+}
 
+.content {
+  margin-bottom: 50px;
+}
 
-
+.div-button.content {
+  margin-top: 15px;
+}
 /*footer -- isn't working yet*/
 
  #footer p .contact{

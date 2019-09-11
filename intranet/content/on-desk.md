@@ -5,34 +5,66 @@ id: "on-desk"
 ---
 
 
-<div class="div-button">
+<div class="col-sm-9">
+<div role="main">
+
+<div class="div-button content">
   <button type="button" class="btn btn-template-main reference_btn" onclick="multiLink()">Ref Tools</button>Opens all tabs for ADP, Slack, Email, Koha, Wekan, and the Booking Calendar.
 </div>
 
-<h3>Tools</h3>
-<strong>Wekan:</strong> For tasks on shift. Find opening and closing tasks, newspaper counts, and daily counts here.
+<div class="content">
+<h2 id="tools">Tools</h2>
+<hr>
+<p><strong>Koha:</strong> Circulation and item management.</p>
 
-<strong>Reference Group Email:</strong>Check emails from patrons when on the reference desk.
+<p><strong>Wekan:</strong> For tasks on shift. Find opening and closing tasks, newspaper counts, and daily counts here.</p>
 
-<strong>Koha:</strong> Circulation and item management.
+<p><strong>Reference Group Email:</strong>Check emails from patrons when on the reference desk.</p>
 
-<strong>Slack:</strong> Communicate between staff.
+<p><strong>Slack:</strong> Communicate between staff.</p>
 
-<strong>Reservations:</strong>
+<p><strong>Gmail:</strong> Access your work email.
+
+<p><strong>Google Drive:</strong> Documents, spreadsheets, and other files. </p>
+
+</p>
+</div>
+
+<div class="content">
+<h2 id="reservations">Reservations</h2>
+<hr>
+
 <ul>
 <li><strong>Meeting Rooms:</strong> Booking system, policy.</li>
 <li><strong>Museum Passes:</strong>  Information on each museum (how many people, admission cost,general info on msueum), how to book one for a patron, and policy.</li>
 <li><strong>Telescopes:</strong> Link to catalog record, how to book telescope, policy?</li>
 </ul>
+</div>
 
-<strong>ILL</strong>
+<div id="programs" class="content">
+<h2>Programs</h2>
+<hr>
+  <ul>
+    <li>Programming Signup Sheets</li>
+    <li>Summer Reading Programs</li>
+    <li>1000 Books Before Kindergarten</li>
+  </ul>
+</div>
+
+
+<div class="content">
+<h2 id="ill">Interlibrary Loan (ILL)</h2>
+<hr>
 <ul>
 <li><strong>NHU-PAC/NH State Library Catalog:</strong> Check if other libraries have a patron's requested book.</li>
 <li>Interlibrary Loan/Collection Development Form</li>
 <li>How to do ILL</li>
 </ul>
+</div>
 
-<p><strong>Readers Advisory</p></strong>
+<div class="content">
+<h2 id="ra">Readers Advisory</h2>
+<hr>
   <ul>
     <li><a href="http://search.ebscohost.com/login.aspx?authtype=ip,cpid&custid=lebpub&profile=NOVPLUS" target="_blank">Novelist</a>: Find books to recommend to patrons.</li>
     <li><a href="https://www.fantasticfiction.com/" target="_blank">Fantastic Fiction</a>: Another resource for finding a patron's next fiction book.</li>
@@ -40,14 +72,17 @@ id: "on-desk"
     <li>NHU-PAC/NH State Library Catalog</li>
     <li>Interlibrary Loan/Collection Development Form</li>
   </ul>
+</div>
 
-<p><strong>Programs</strong></p>
-  <ul>
-    <li>Programming Signup Sheets</li>
-    <li>Summer Reading Programs</li>
-    <li>1000 Books Before Kindergarten</li>
-  </ul>
 
-<p><strong>Research and Genealogy</strong></p>
+
+<div class="content">
+<h2 id="research">Research and Genealogy</h2>
+<hr>
   <li>Obit Index</li>
 </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
