@@ -13,28 +13,21 @@
         <!-- /.col-md-4 -->
         {{ end }}
 
-<!--Contact 1-->
+        {{ if isset .Site.Params "hours" }}
+        <div class="col-md-3 col-sm-7">
 
-<!-- /.col-md-4 -->
+          <h4>HOURS</h4>
 
-{{ if isset .Site.Params "address" }}
-<div class="col-md-4 col-sm-6">
-
-  <h4>{{ i18n "contactTitle" }}</h4>
-
-    {{ .Site.Params.address | markdownify }}
-
-    <hr class="hidden-md hidden-lg hidden-sm">
-
-</div>
-<!-- /.col-md-4 -->
-{{ end }}
+            {{ .Site.Params.hours | markdownify }}
 
 
+            <hr class="hidden-md hidden-lg hidden-sm">
 
-<!--end Contact 1-->
+        </div>
+        <!-- /.col-md-4 -->
+        {{ end }}
 
-
+<!--Recent posts
 
         <div class="col-md-4 col-sm-6">
 
@@ -66,19 +59,31 @@
         </div>
         <!-- /.col-md-4 -->
 
-        {{ if isset .Site.Params "hours" }}
+
+        <!--Contact 1-->
+
+        <!-- /.col-md-4 -->
+
+        {{ if isset .Site.Params "address" }}
         <div class="col-md-4 col-sm-6">
 
-          <h4>HOURS</h4>
+          <h4>{{ i18n "contactTitle" }}</h4>
 
-            {{ .Site.Params.hours | markdownify }}
-
+            {{ .Site.Params.address | markdownify }}
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
         </div>
         <!-- /.col-md-4 -->
         {{ end }}
+
+
+
+        <!--end Contact 1-->
+
+
+
+
 
     </div>
     <!-- /.container -->

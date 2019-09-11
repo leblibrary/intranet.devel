@@ -35,9 +35,9 @@ paginate = 10
     weight = 2
 
 [[menu.main]]
-    identifier="administration"
+    identifier="handbook"
     name = "Staff Handbook"
-    url  = "/admin.html"
+    url  = "/handbook.html"
     weight = 3
 
   [[menu.main]]
@@ -63,7 +63,7 @@ paginate = 10
       identifier="lib_extensions"
       name = "Library Extensions"
       parent = "contact"
-      url = "https://intranet.leblibrary.com/communication/extensions/"
+      url = "https://docs.google.com/spreadsheets/d/10tignnh4u8aQZq8wgzmWWZv-q-2S_Sksi78Bt5NP03k/edit?usp=sharing"
       weight = 2
 
       [[menu.main]]
@@ -226,6 +226,14 @@ paginate = 10
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
+
+
+  [params.handbookfeatures]
+      enable = true
+      # All features are defined in their own files. You can find example items
+      # at 'exampleSite/data/features'.
+      # For more informtion take a look at the README.
+
 
 [params.testimonials]
     enable = false

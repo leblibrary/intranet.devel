@@ -188,7 +188,7 @@ li.dropdown:hover ul {
 
 
 
-/*footer*/
+/*footer -- isn't working yet*/
 
  #footer p .contact{
     color: lightgray;
@@ -201,4 +201,9 @@ li.dropdown:hover ul {
   border-bottom-color: white;
   border-bottom-width: 1px;
   box-sizing: border-border-box;
+}
+
+
+div .icon {
+  color: red;
 }
