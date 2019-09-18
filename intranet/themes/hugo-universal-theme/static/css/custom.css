@@ -176,16 +176,61 @@ i.fa.fa-search {
 }
 
 
-/*sidenav*/
+/*sidenav: on-desk*/
 
 #sidenav-desk {
   font-size: 1.3em;
   position: -webkit-sticky;
   position: sticky;
   top: 100px;
+
 }
 
+/* to change sidenav color when active - doesn't work yet*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #6aae7a;
+}
 
+/*on desk*/
+
+.main {
+  padding-right: 35px;
+}
+
+#desk-jumbotron {
+  background-color: #;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron p,
+.jumbotron ul {
+  color: rgb(28, 26, 26);
+}
+
+.jumbotron .btn-primary {
+  background-color: #ffbd32;
+  border: none;
+}
+
+/*on desk - allow relative links to jump properly to headers covered by fixed topnav*/
+
+h2 {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+/*top nav */
+
+#topbar {
+  position: fixed;
+}
 
 /*on desk content*/
 
@@ -218,4 +263,39 @@ i.fa.fa-search {
 
 div .icon {
   color: red;
+}
+
+
+/* handbook */
+
+.thumbnail {
+  text-align: center;
+  width: 25rem;
+  height: 30rem;
+  padding-top: 40px;
+  margin: 30px auto;
+}
+
+.thumbnail p {
+  padding-bottom: 15px;
+}
+
+#policy {
+  background-color: #4ac6d6;
+}
+
+#procedure {
+  background-color: #4fc99a;
+}
+
+#form {
+  background-color: #f48fb1;
+}
+
+#slip {
+  background-color: #ffc035;
+}
+
+#training {
+  background-color: rgb(244, 130, 80);
 }

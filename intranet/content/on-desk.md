@@ -5,14 +5,23 @@ id: "on-desk"
 ---
 
 <div class="col-sm-10">
-<div role="main">
+<div role="main" class="main">
 
+<div class="jumbotron" id="desk-jumbotron">
+  <h1>Desk Tabs</h1>
+  <p>Open ADP, Koha, Wekan, Slack, Gmail, and meeting rooms with one click</p>
+  <p><a class="btn btn-primary btn-lg" role="button" onclick="multiLink()">Open All Tabs</a></p>
+</div>
+
+<!--
 <div class="div-button content">
   <button type="button" class="btn btn-template-main reference_btn" onclick="multiLink()">Ref Tools</button>Opens all tabs for ADP, Slack, Email, Koha, Wekan, and the Booking Calendar.
 </div>
+-->
+
 
 <div class="content">
-  <h2 id="tools" name="reservations">Tools</h2>
+  <h2 name="reservations" id="tools">Tools</h2>
   <hr>
     <p><strong>Koha:</strong> Circulation and item management.</p>
 
@@ -52,8 +61,8 @@ id: "on-desk"
 </div>
 
 
-<div class="content" id="ill" name="ill">
-  <h2 id="">Interlibrary Loan (ILL)</h2>
+<div class="content" name="ill">
+  <h2 id="ill">Interlibrary Loan (ILL)</h2>
   <hr>
     <ul>
       <li><strong>NHU-PAC/NH State Library Catalog:</strong> Check if other libraries have a patron's requested book.</li>
@@ -63,7 +72,7 @@ id: "on-desk"
 </div>
 
 <div class="content">
-  <h2 id="ra" name="ra">Readers Advisory</a></h2>
+  <h2 id="ra" name="ra" class="tab-pane">Readers Advisory</a></h2>
   <hr>
     <ul>
       <li><a href="http://search.ebscohost.com/login.aspx?authtype=ip,cpid&custid=lebpub&profile=NOVPLUS" target="_blank">Novelist</a>: Find books to recommend to patrons.</li>
@@ -82,5 +91,6 @@ id: "on-desk"
     </ul>
 </div>
 
+</div>
 </div>
 </div>

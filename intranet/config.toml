@@ -88,11 +88,6 @@ paginate = 10
       url = "/emergency.html"
       weight = 5
 
-    [[menu.main]]
-        identifier="test"
-        name = "Test"
-        url  = "/test.html"
-        weight = 6
 
 # Top bar social links menu
 
