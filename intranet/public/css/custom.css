@@ -80,56 +80,19 @@ div.form-staff_picks {
     margin-left: auto;
 }
 
-/*Search bar and button styling*/
-
-.input-group .btn{
-  border-radius:50%;
-  position: absolute;
-  background-color: #7EC28A;
-  color: white;
-  top: 1px;
-  right: 1px;
-  z-index: 100;
-  width:38px;
-  height: 38px;
-}
-
-
-i.fa.fa-search {
-  position: relative;
-  right: 7px;
-  display: inline-block;
-  font-size: 1.3em;
-}
-
-.input-group .btn:hover {
-  color: white;
-  background-color: #6aae7a;
-}
-
-.input-group .form-control {
-    border-radius: 20px !important;
-    height: 40px;
+div.input-group .form-control:first-child {
+    border-radius: 15px;
+    background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png") top left no-repeat;
+    height: 30px;
     padding-left: 30px;
-    font-size: 1.3em;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
 }
 
-/*enlarge social icons*/
-.social .fa-2x{
-  font-size: 3em;
-  margin: 0px 15px;
+.searchIcon {
+  padding: .5rem;
 }
 
-
-/*top bar*/
-#top .social a {
-  color: #ffffff;
-  padding-right: 35px;
-}
-
-#top {
-  background: #999999;
-}
 
 /* home banner*/
 .header {
@@ -175,47 +138,20 @@ i.fa.fa-search {
   border-radius: 8px;
 }
 
-
-/*sidenav*/
-
-#sidenav-desk {
-  font-size: 1.3em;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 100px;
+/*top bar*/
+#top .social a {
+  color: #ffffff;
 }
 
-
-
-/*on desk content*/
-
-.main {
-  margin-right: 30px;
+#top {
+  background: #999999;
 }
 
-.content {
-  margin-bottom: 50px;
+/* drop down menu - hover */
+
+li.dropdown:hover ul {
+  display: block !important;
 }
 
-.div-button.content {
-  margin-top: 15px;
-}
-/*footer -- isn't working yet*/
-
- #footer p .contact{
-    color: lightgray;
-    font-weight: bold;
-    text-align: right
-  }
-
-.list-border li {
-  border-bottom-style: dashed;
-  border-bottom-color: white;
-  border-bottom-width: 1px;
-  box-sizing: border-border-box;
-}
-
-
-div .icon {
-  color: red;
-}
+.sidenav {
+  font-size: 14px;

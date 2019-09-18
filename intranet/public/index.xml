@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intranet</title>
+    <link>https://devel.intranet.leblibrary.com/</link>
+    <description>Recent content on Intranet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Aug 2019 15:23:14 -0400</lastBuildDate>
+    
+	<atom:link href="https://devel.intranet.leblibrary.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Emergency</title>
+      <link>https://devel.intranet.leblibrary.com/emergency.html</link>
+      <pubDate>Mon, 19 Aug 2019 15:23:14 -0400</pubDate>
+      
+      <guid>https://devel.intranet.leblibrary.com/emergency.html</guid>
+      <description>Immediate Safety If you or a patron feels unsafe, do not hesitate to use the following options: Emergency button at desk
+ This will notify the police, and they will arrive within x minutes. This is a great and quick option, especially if it feels unsafe to place a phone call in front of patrons.  Call 911 or dispatch at 603-448-1212.
+ Lebanon Library: Call from Amy&#39;s office if you would like privacy from patrons.</description>
+    </item>
+    
+    <item>
+      <title>On Desk</title>
+      <link>https://devel.intranet.leblibrary.com/on-desk.html</link>
+      <pubDate>Wed, 19 Jun 2019 15:23:14 -0400</pubDate>
+      
+      <guid>https://devel.intranet.leblibrary.com/on-desk.html</guid>
+      <description>Ref ToolsOpens all tabs for ADP, Slack, Email, Koha, Wekan, and the Booking Calendar.  Tools Wekan: For tasks on shift. Find opening and closing tasks, newspaper counts, and daily counts here.
+Reference Group Email:Check emails from patrons when on the reference desk.
+Koha: Circulation and item management.
+Booking Calendar: Book meeting rooms.
+NHU-PAC/NH State Library Catalog:Check if other libraries have a patron&amp;rsquo;s requested book.
+Readers Advisory
+  Novelist: Find books to recommend to patrons.</description>
+    </item>
+    
+    <item>
+      <title>Reference &amp; Circulation</title>
+      <link>https://devel.intranet.leblibrary.com/resources.html</link>
+      <pubDate>Wed, 19 Jun 2019 15:23:14 -0400</pubDate>
+      
+      <guid>https://devel.intranet.leblibrary.com/resources.html</guid>
+      <description>Resources  Museum Passes Novelist Obit Index Hours Database</description>
+    </item>
+    
+    <item>
+      <title>Reference &amp; Circulation</title>
+      <link>https://devel.intranet.leblibrary.com/tools.html</link>
+      <pubDate>Wed, 19 Jun 2019 15:23:14 -0400</pubDate>
+      
+      <guid>https://devel.intranet.leblibrary.com/tools.html</guid>
+      <description>Tools  Wekan: tasks on shift Slack: staff communication Reference group email</description>
+    </item>
+    
+    <item>
+      <title>Staff Handbook</title>
+      <link>https://devel.intranet.leblibrary.com/admin.html</link>
+      <pubDate>Wed, 19 Jun 2019 15:23:14 -0400</pubDate>
+      
+      <guid>https://devel.intranet.leblibrary.com/admin.html</guid>
+      <description>Procedures
+Policies
+DocuSign Forms
+Training: Onboarding Items  Koha Test Environment Policies Procedures Kilton Library Checklist Lebanon Library Checklist 
+Koha  Test Environment Instruction Manuals Tasks to Practice Cataloging 
+Google calendar  Checking other calendars Creating an event 
+Gmail  Reference using Google Groups 
+Google Drive  My Drive versus Shared Drive Google Docs Google Sheets 
+Slack  General messaging Direct message 
+Library Website  Programs Catalog Booking Calendar for Meeting Rooms Editing pages</description>
+    </item>
+    
+    <item>
+      <title>Newest Posts</title>
+      <link>https://devel.intranet.leblibrary.com/blog/2019/06/11/newest-posts.html</link>
+      <pubDate>Tue, 11 Jun 2019 14:25:39 -0400</pubDate>
+      
+      <guid>https://devel.intranet.leblibrary.com/blog/2019/06/11/newest-posts.html</guid>
+      <description>The older blog posts are here and the rest of the intranet still has some great functionality, but all staff messages are on the #allstaff slack channel.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://devel.intranet.leblibrary.com/contact.html</link>
+      <pubDate>Tue, 11 Jun 2019 14:18:20 -0400</pubDate>
+      
+      <guid>https://devel.intranet.leblibrary.com/contact.html</guid>
+      <description>Library Extensions  Internal Staff Directory City Directory</description>
+    </item>
+    
+  </channel>
+</rss>

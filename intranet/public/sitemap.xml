@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/emergency.html</loc>
+    <lastmod>2019-08-19T15:23:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/</loc>
+    <lastmod>2019-08-19T15:23:14-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/on-desk.html</loc>
+    <lastmod>2019-06-19T15:23:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/resources.html</loc>
+    <lastmod>2019-06-19T15:23:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/tools.html</loc>
+    <lastmod>2019-06-19T15:23:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/admin.html</loc>
+    <lastmod>2019-06-19T15:23:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/blog.html</loc>
+    <lastmod>2019-06-11T14:25:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/blog/2019/06/11/newest-posts.html</loc>
+    <lastmod>2019-06-11T14:25:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/contact.html</loc>
+    <lastmod>2019-06-11T14:18:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/categories.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://devel.intranet.leblibrary.com/tags.html</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
