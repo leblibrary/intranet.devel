@@ -273,12 +273,30 @@ div .icon {
   width: 25rem;
   height: 30rem;
   padding-top: 40px;
-  margin: 30px auto;
+  margin: 5rem auto;
+  -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s, height 1s;
+  position: relative;
 }
 
 .thumbnail p {
   padding-bottom: 15px;
 }
+
+
+.thumbnail:hover {
+  width: 26rem;
+  height: 31rem;
+}
+
+a.stretched-link a.stretched-link:hover {
+  color: black;
+}
+
+a.btn btn-default stretched-link {
+  color: black;
+}
+
 
 #policy {
   background-color: #4ac6d6;
