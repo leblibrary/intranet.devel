@@ -1,5 +1,5 @@
 weight: 2
 name: "Koha"
-icon: "fa fa-envelope-o"
-description: "Circulation, cataloging."
+icon: "fa fa-2x fa-shopping-cart"
+description: "Circulation and catalog."
 url: "http://mail.google.com/"

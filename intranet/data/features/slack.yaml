@@ -1,5 +1,5 @@
-weight: 3
+weight: 4
 name: "Slack"
-icon: "fa fa-slack"
+icon: "fa fa-2x fa-slack"
 description: "Internal staff communication and news."
 url: "https://leblibrary.slack.com"

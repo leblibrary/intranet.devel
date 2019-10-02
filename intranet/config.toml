@@ -157,24 +157,25 @@ paginate = 10
 
     logo = "img/leb-logo.jpg"
     logo_small = "img/leb-small-logo.png"
-    address = """<div class="contact"><i class="fa fa-envelope-o pull-left" aria-hidden="true"></i><p class="contact">library@leblibrary.com
+    address = """<div class="contact">
         <br>
-        <br>
-        <strong>LEBANON LIBRARY</strong>
-        </p>
+        <p><strong>LEBANON LIBRARY</strong></p>
         <i class="fa fa-location-arrow pull-left" aria-hidden="true"></i>
-        <p class="contact">9 East Park St
-        <br>     Lebanon, NH 03745</p>
+        <p>9 East Park St</p>
+        <p>Lebanon, NH 03745</p>
         <i class="fa fa-phone pull-left" aria-hidden="true"></i>
-        <p class="contact">(603) 448-2459
-      </p>
-      <br>
-      <p class="address"><strong>KILTON LIBRARY</strong>
-          <br><i class="fa fa-location-arrow" aria-hidden="true"></i>80 S. Main St
-          <br>West Lebanon, NH 03784
-          <br><i class="fa fa-phone" aria-hidden="true"></i>(603) 298-8544
-          <br>
-        </p>
+        <p>(603) 448-2459</p>
+        <i class="fa fa-envelope-o pull-left" aria-hidden="true"></i>
+        <p>library@leblibrary.com</p>
+        <br>
+        <p><strong>KILTON LIBRARY</strong></p>
+        <i class="fa fa-location-arrow pull-left" aria-hidden="true"></i>
+        <p>80 S. Main St
+        <br>West Lebanon, NH 03784</p>
+        <i class="fa fa-phone pull-left" aria-hidden="true"></i>
+        <p>(603) 298-8544</p>
+        <i class="fa fa-envelope-o pull-left" aria-hidden="true"></i>
+        <p>library@leblibrary.com</p>
         </div>
         """
     hours ="""<ul class="list-border">

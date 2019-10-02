@@ -48,7 +48,7 @@ div.form-staff_picks {
 }
 
 .report_button .btn {
-  width: 100%;
+  width: 75%;
   padding: .5em;
 }
 
@@ -245,26 +245,30 @@ h2 {
 .div-button.content {
   margin-top: 15px;
 }
-/*footer -- isn't working yet*/
 
- #footer p .contact{
-    color: lightgray;
-    font-weight: bold;
-    text-align: right
+/*footer*/
+
+.footer-info {
+  color: #EDEDED;
+}
+
+.contact {
+    padding-left: 75px;
+    margin-left: 35px;
   }
 
-.list-border li {
-  border-bottom-style: dashed;
-  border-bottom-color: white;
-  border-bottom-width: 1px;
-  box-sizing: border-border-box;
+.contact i {
+  padding-right: 15px;
 }
 
-
-div .icon {
-  color: red;
+.address h4 {
+  padding-left: 75px;
+  margin-left: 35px;
 }
 
+.hours {
+  padding-right: 40px;
+}
 
 /* handbook */
 
@@ -289,12 +293,29 @@ div .icon {
   height: 31rem;
 }
 
-a.stretched-link a.stretched-link:hover {
-  color: black;
+.btn-handbook {
+  position: absolute;
+  bottom: 10%;
+  left: 33%;
+  margin: auto;
 }
 
-a.btn btn-default stretched-link {
-  color: black;
+a.test-link {
+  width: 100%;
+  height: 100%;
+  color: #555555;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 110%;
+}
+
+
+
+a:hover h3  {
+  text-shadow:  1px 1px 2px rgba(153,153,153, .40);
+  font-size: 125%;
 }
 
 
@@ -316,4 +337,20 @@ a.btn btn-default stretched-link {
 
 #training {
   background-color: rgb(244, 130, 80);
+}
+
+#programs-handbook {
+  background-color: #c7c5e1;
+}
+
+/*features*/
+
+.icon {
+  border-radius: none;
+  border: none;
+  line-height: 120px;
+}
+
+a:hover i.fa {
+  text-shadow: 2px 1px 2px  rgba(153,153,153, .25);
 }

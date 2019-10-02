@@ -1,5 +1,5 @@
-weight: 5
+weight: 6
 name: "Program Sign Ups"
-icon: "fa fa-user-plus"
-description: "Sign up patrons for children, teen, and adult programs."
-url: "https://intranet.leblibrary.com/programming-sign-up-sheets/"
+icon: "fa fa-2x fa-user-plus"
+description: "Sign up patrons for programs."
+url: "https://www.eventbrite.com/"
