@@ -1,8 +1,8 @@
 <footer id="footer">
     <div class="container">
 
-        {{ if isset .Site.Params "about_us" }}
-        <div class="col-md-3 col-sm-6 footer-info">
+      {{ if isset .Site.Params "about_us" }}
+        <div class="col-md-4 col-sm-12 footer-info">
             <h4>{{ i18n "aboutUs" }}</h4>
 
             {{ .Site.Params.about_us | markdownify }}
@@ -10,11 +10,12 @@
             <hr class="hidden-md hidden-lg hidden-sm">
 
         </div>
+
         <!-- /.col-md-4 -->
         {{ end }}
 
         {{ if isset .Site.Params "hours" }}
-        <div class="col-md-4 col-sm-6 footer-info hours">
+        <div class="col-md-4 col-sm-12 footer-info hours">
 
           <h4>HOURS</h4>
 
@@ -65,11 +66,23 @@
         <!-- /.col-md-4 -->
 
         {{ if isset .Site.Params "address" }}
-        <div class="col-md-5 col-sm-6 footer-info address">
+        <div class="col-md-3 col-sm-6 footer-info address">
 
-          <h4>{{ i18n "contactTitle" }}</h4>
+          <h4>Locations</h4>
 
             {{ .Site.Params.address | markdownify }}
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        <!-- /.col-md-4 -->
+        {{ end }}
+
+
+        {{ if isset .Site.Params "address2" }}
+        <div class="col-md-3 col-sm-6 footer-info address">
+
+            {{ .Site.Params.address2 | markdownify }}
 
             <hr class="hidden-md hidden-lg hidden-sm">
 

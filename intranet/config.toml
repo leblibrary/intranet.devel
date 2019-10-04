@@ -149,7 +149,7 @@ paginate = 10
     email = "intranet@leblibrary.com"
     contact_form_ajax = false
 
-    about_us = "<p>We are a library</p>"
+    # about_us = "<p>We are a library</p>"
     copyright = "Copyright (c) 2019, Lebanon Public Libraries; all rights reserved."
 
     # Format dates with Go's time formatting
@@ -158,27 +158,29 @@ paginate = 10
     logo = "img/leb-logo.jpg"
     logo_small = "img/leb-small-logo.png"
     address = """<div class="contact">
-        <br>
-        <p><strong>LEBANON LIBRARY</strong></p>
+        <p><strong>Lebanon Library</strong></p>
         <i class="fa fa-location-arrow pull-left" aria-hidden="true"></i>
-        <p>9 East Park St</p>
-        <p>Lebanon, NH 03745</p>
+        <p>9 East Park St
+        <br>
+        <span="second-line">Lebanon, NH 03745</span></p>
         <i class="fa fa-phone pull-left" aria-hidden="true"></i>
         <p>(603) 448-2459</p>
         <i class="fa fa-envelope-o pull-left" aria-hidden="true"></i>
         <p>library@leblibrary.com</p>
-        <br>
-        <p><strong>KILTON LIBRARY</strong></p>
+        </div>
+        """
+    address2 = """<div class="contact2">
+        <p><strong>Kilton Library</strong></p>
         <i class="fa fa-location-arrow pull-left" aria-hidden="true"></i>
         <p>80 S. Main St
-        <br>West Lebanon, NH 03784</p>
+        <br><span="second-line">West Lebanon, NH 03784</span></p>
         <i class="fa fa-phone pull-left" aria-hidden="true"></i>
         <p>(603) 298-8544</p>
         <i class="fa fa-envelope-o pull-left" aria-hidden="true"></i>
         <p>library@leblibrary.com</p>
         </div>
         """
-    hours ="""<ul class="list-border">
+    hours ="""<ul class="list-border hours">
     <li class="clearfix text-white"><span> Monday - Thursday: </span>
     <div class="value pull-right flip"> 10:00 am - 8:00 pm
     </div></li>

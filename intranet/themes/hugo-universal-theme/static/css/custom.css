@@ -68,7 +68,8 @@ div.form-staff_picks {
 }
 
 
-/*search bar */
+/*Search bar and button styling*/
+
 #top .container {
     margin-left: 0;
     margin-right: 0;
@@ -80,24 +81,21 @@ div.form-staff_picks {
     margin-left: auto;
 }
 
-/*Search bar and button styling*/
-
 .input-group .btn{
   border-radius:50%;
   position: absolute;
   background-color: #7EC28A;
   color: white;
-  top: 1px;
-  right: 1px;
+  top: 2.4px;
+  right: 2px;
   z-index: 100;
-  width:38px;
-  height: 38px;
+  width:35px;
+  height: 35px;
 }
-
 
 i.fa.fa-search {
   position: relative;
-  right: 7px;
+  right: 7.5px;
   display: inline-block;
   font-size: 1.3em;
 }
@@ -111,13 +109,14 @@ i.fa.fa-search {
     border-radius: 20px !important;
     height: 40px;
     padding-left: 30px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 /*enlarge social icons*/
 .social .fa-2x{
-  font-size: 3em;
+  font-size: 2.7em;
   margin: 0px 15px;
+  padding-top: 4px;
 }
 
 
@@ -252,22 +251,22 @@ h2 {
   color: #EDEDED;
 }
 
-.contact {
-    padding-left: 75px;
-    margin-left: 35px;
-  }
 
 .contact i {
   padding-right: 15px;
 }
 
-.address h4 {
-  padding-left: 75px;
-  margin-left: 35px;
+.hours {
+  margin-right: 40px;
+  padding-right: 0px;
 }
 
-.hours {
-  padding-right: 40px;
+.contact2 {
+  padding-top: 35px;
+}
+
+#copyright {
+  padding: 20px 0;
 }
 
 /* handbook */
