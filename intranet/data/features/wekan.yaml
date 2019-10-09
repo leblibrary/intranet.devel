@@ -1,5 +1,5 @@
-weight: 3
+weight: 4
 name: "Wekan"
-icon: "fa fas fa-2x fa-tasks"
+icon: "fa fas fa-3x fa-tasks"
 description: "Keep track of tasks and projects."
 url: "https://wekan.leblibrary.com/"

@@ -1,5 +1,5 @@
-weight: 2
+weight: 5
 name: "Koha"
-icon: "fa fa-2x fa-shopping-cart"
+icon: "fa fa-3x fa-book"
 description: "Circulation and catalog."
-url: "http://mail.google.com/"
+url: "https://koha.leblibrary.com/"

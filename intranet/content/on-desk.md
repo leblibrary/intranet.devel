@@ -4,22 +4,6 @@ date: 2019-06-19T15:23:14-04:00
 id: "on-desk"
 ---
 
-<div class="col-sm-10">
-<div role="main" class="main">
-
-<div class="jumbotron" id="desk-jumbotron">
-  <h1>Desk Tabs</h1>
-  <p>Open ADP, Koha, Wekan, Slack, Gmail, and meeting rooms with one click</p>
-  <p><a class="btn btn-primary btn-lg" role="button" onclick="multiLink()">Open All Tabs</a></p>
-</div>
-
-<!--
-<div class="div-button content">
-  <button type="button" class="btn btn-template-main reference_btn" onclick="multiLink()">Ref Tools</button>Opens all tabs for ADP, Slack, Email, Koha, Wekan, and the Booking Calendar.
-</div>
--->
-
-
 <div class="content">
   <h2 name="reservations" id="tools">Tools</h2>
   <hr>

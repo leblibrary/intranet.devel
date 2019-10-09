@@ -1,5 +1,5 @@
-weight: 6
-name: "Program Sign Ups"
-icon: "fa fa-2x fa-user-plus"
+weight: 2
+name: "Programs"
+icon: "fa fa-3x fa-user-plus"
 description: "Sign up patrons for programs."
-url: "https://www.eventbrite.com/"
+url: "https://www.eventbrite.com/manage/events"

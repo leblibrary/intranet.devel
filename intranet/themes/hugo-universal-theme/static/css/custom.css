@@ -132,23 +132,24 @@ i.fa.fa-search {
 
 /* home banner*/
 .header {
-  padding: 60px;
+  padding: 50px 0;
   text-align: center;
-  background: #6aae7a;
-  color: white;
+/*  background: url(../img/texture-bw.png) center center repeat; */
+  color: #555555;
   font-size: 30px;
 }
 
 .header h1 {
-  color: white;
+  color: #555555;
   display: inline-block;
-  border-bottom: solid 1px #ffffff;
+  border-bottom: solid 1px darkgray;
+  border-bottom: solid 5px #6aae7a;
   line-height: 1.1;
   margin-bottom: 10;
   padding-bottom: 10px;
   vertical-align: middle;
-  letter-spacing: .02em;
-
+  letter-spacing: .08em;
+  padding-top:
 }
 
 .header p {
@@ -199,10 +200,24 @@ i.fa.fa-search {
   padding-right: 35px;
 }
 
-#desk-jumbotron {
+/*jumbotron: on desk*/
+
+.desk-jumbotron {
   background-color: #;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  padding-left: 0px;
+  height: 130px;
+  padding-top: 30px;
+}
+
+.jumbotron h1 {
+  font-size: 2em;
+}
+
+.jumbotron p {
+  font-size: 1.2em;
 }
 
 .jumbotron h1,
@@ -216,6 +231,27 @@ i.fa.fa-search {
 .jumbotron .btn-primary {
   background-color: #ffbd32;
   border: none;
+
+}
+
+/*jumbotron: home page*/
+
+.home-jumbotron {
+  text-align: center;
+  height: 200px;
+  background-color: #;
+  margin-top: 10px;
+  height: 200px;
+  padding-top: 20px;
+  color: #555555;
+}
+
+.home-jumbotron h1 {
+  color: #555555;
+}
+
+.home-jumbotron p {
+  color: #555555;
 }
 
 /*on desk - allow relative links to jump properly to headers covered by fixed topnav*/
@@ -274,7 +310,7 @@ h2 {
 .thumbnail {
   text-align: center;
   width: 25rem;
-  height: 30rem;
+  height: 29rem;
   padding-top: 40px;
   margin: 5rem auto;
   -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
@@ -289,7 +325,7 @@ h2 {
 
 .thumbnail:hover {
   width: 26rem;
-  height: 31rem;
+  height: 30rem;
 }
 
 .btn-handbook {
@@ -299,22 +335,28 @@ h2 {
   margin: auto;
 }
 
-a.test-link {
+a.handbook {
   width: 100%;
   height: 100%;
   color: #555555;
 }
 
-a:hover {
-  text-decoration: none;
-  font-size: 110%;
+a.handbook:hover {
+    font-size: 1.1em;
 }
 
+a.handbook:hover h3{
+    font-size: 160%;
+}
+
+a:hover {
+  text-decoration: none;
+}
 
 
 a:hover h3  {
   text-shadow:  1px 1px 2px rgba(153,153,153, .40);
-  font-size: 125%;
+  font-size: 140%;
 }
 
 
@@ -352,4 +394,37 @@ a:hover h3  {
 
 a:hover i.fa {
   text-shadow: 2px 1px 2px  rgba(153,153,153, .25);
+}
+
+a.home-features:hover {
+font-size: 1.1em;
+}
+
+
+a:hover p  {
+  font-size: 110%;
+}
+
+.ADP {
+  color: #0C3959;
+}
+
+.Wekan {
+    color: #2980b9;
+}
+
+.Koha {
+  color:#80ad29;
+}
+
+.Slack {
+  color: #611f69;
+}
+
+.Schedule {
+  color: #1a73e8;
+}
+
+.Programs{
+  color: #f05537;
 }

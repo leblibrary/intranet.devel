@@ -1,0 +1,5 @@
+weight: 3
+name: "Schedule"
+icon: "fa fa-3x fa-calendar"
+description: "Check the schedule."
+url: "https://calendar.google.com/calendar/r"
