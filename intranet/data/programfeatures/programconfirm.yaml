@@ -1,0 +1,5 @@
+weight: 2
+name: "Confirm Signup"
+icon: "fa fa-3x fa-check"
+description: "Check here to view current patron signups."
+url: "https://calendar.google.com/calendar/r"

@@ -1,0 +1,5 @@
+weight: 5
+name: "ILL System"
+icon: "fa fas fa-3x fa-circle"
+description: "Check on patron's ILL request status."
+url: "https://nhais.agshareit.com/home?cid=nhais&lid=nhais"

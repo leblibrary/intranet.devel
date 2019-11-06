@@ -13,7 +13,7 @@
                   <h3>Staff Picks</h3>
                 </div>
 
-                <div id="contact-message"></div>
+                <div id="staff-picks" class="contact-message staff-picks">Have you enjoyed a particularly great book, audiobook, movie, or other resource? Share it with our patrons!</div>
 
                 <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://formspree.io/{{ .Site.Params.email }}">
                     <div class="row form-staff_picks">

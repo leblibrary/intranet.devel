@@ -1,5 +1,5 @@
-weight: 2
+weight: 3
 name: "Programs"
 icon: "fa fa-3x fa-user-plus"
-description: "Sign up patrons for programs."
-url: "https://www.eventbrite.com/manage/events"
+description: "Program information."
+url: "http://localhost:1313/on-desk.html#programs"

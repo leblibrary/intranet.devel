@@ -1,4 +1,4 @@
-<div class="container" id="report_issue">
+<div class="container home-issue" id="report_issue">
 
     <div class="row report_forms">
         <div class="col-md-12">
@@ -12,47 +12,9 @@
                 <div class="heading text-center">
                   <h3>Report an Issue</h3>
                 </div>
-<div class="report_button col-sm-4">
-                <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://intranet.leblibrary.com/report-a-building-issue/" target="_blank">
-                    <div class="row issue-button">
 
-                        <div class="text-center">
-                          <button type="button building-button" class="btn btn-template-main"><i class="fa fa-building-o"></i>Building</button>
-
-                        </div>
-                    </div>
-                  </form>
-</div>
-<div class="report_button col-sm-4">
-
-                <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://help.leblibrary.com/" target="_blank">
-                    <div class="row issue-button">
-
-
-                        <div class="text-center">
-                          <button type="button tech-button" class="btn btn-template-main"><i class="fa fa-laptop"></i>Tech</button>
-
-                        </div>
-                    </div>
-
-
-                </form>
-</div>
-                <div class="report_button col-sm-4">
-
-                <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://account.docusign.com/#/username" target="_blank">
-                    <div class="row issue-button">
-
-                        <div class="text-center">
-                          <button type="button safety-button" class="btn btn-template-main"><i class="fa fa-plus-square"></i>Safety</button>
-
-                        </div>
-                    </div>
-                  </form>
-</div>
                 {{ end }}
-
-            </section>
+        </section>
 
         </div>
 

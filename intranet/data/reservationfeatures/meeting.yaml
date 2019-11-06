@@ -1,0 +1,5 @@
+weight: 1
+name: "Meeting Rooms"
+icon: "fa fas fa-3x fa-users"
+description: "Reserve, cancel, and confirm meeting room requests."
+url: "https://leblibrary.com/booking-calendar/"

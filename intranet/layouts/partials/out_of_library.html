@@ -13,7 +13,7 @@
                   <h3>Out of Library</h3>
                 </div>
 
-                <div id="contact-message"></div>
+                <div id="contact-message" class ="contact-message">Can't make it to work because or sickness or an emergency? Let us know!</div>
 
                 <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://formspree.io/{{ .Site.Params.email }}">
                     <div class="row form-out-of-library">

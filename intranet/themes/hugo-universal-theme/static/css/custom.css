@@ -1,11 +1,45 @@
 /* your styles go here */
 
+/*home page global styles*/
+
+.contact-message {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.contact-message {
+  font-size: 1.1em;
+}
+
+/*form global styles*/
+
+label {
+  font-size: 1.1em;
+}
+
+.bar {
+  padding: 10px;
+}
+
+.section div .section {
+  margin-bottom: 0px;
+}
+
 /* out of library form */
 #out_of_library.container {
   padding-top: 75px;
   padding-bottom: 75px;
   padding-right: 200px;
   padding-left: 200px;
+}
+
+.contact-message {
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 div.form-out-of-library {
@@ -17,10 +51,7 @@ div.form-out-of-library {
 #staff_picks.container {
   display:flex;
   justify-content: center;
-  padding-top: 75px;
-  padding:bottom: 75px;
-  padding-right: 300px;
-  padding-left: 300px;
+  padding: 75px 300px;
 }
 
 div.form-staff_picks {
@@ -38,25 +69,12 @@ div.form-staff_picks {
   min-height: 230px;
 }
 
-/* report issue buttons*/
-.report_button {
-  margin-top: 1em;
-}
-
-.report_button .row {
-  margin: 0px;
-}
-
-.report_button .btn {
-  width: 75%;
-  padding: .5em;
-}
+/*Report an Issue */
 
 #report_issue {
   display: flex;
   justify-content: center;
   padding-top: 55px;
-  padding-bottom: 95px;
 }
 
 #report_issue .report_forms {
@@ -67,6 +85,22 @@ div.form-staff_picks {
   padding: 15px;
 }
 
+.Building {
+  color: #f7b640;
+}
+
+.Safety {
+  color: #d40000;
+}
+
+.Technology {
+  color: #4385F4;
+}
+
+.box-simple p {
+  color: #555555;
+  font-size: 1.2em;
+}
 
 /*Search bar and button styling*/
 
@@ -132,9 +166,8 @@ i.fa.fa-search {
 
 /* home banner*/
 .header {
-  padding: 50px 0;
+  padding: 40px 0;
   text-align: center;
-/*  background: url(../img/texture-bw.png) center center repeat; */
   color: #555555;
   font-size: 30px;
 }
@@ -196,9 +229,25 @@ i.fa.fa-search {
 
 /*on desk*/
 
+
 .main {
   padding-right: 35px;
 }
+
+h3.desk-headers {
+  border-bottom: solid 5px #6aae7a;
+  display: inline-block;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-top: 90px;
+  margin-top: -90px;
+}
+
 
 /*jumbotron: on desk*/
 
@@ -229,7 +278,7 @@ i.fa.fa-search {
 }
 
 .jumbotron .btn-primary {
-  background-color: #ffbd32;
+  background-color: #ffb61e;
   border: none;
 
 }
@@ -240,10 +289,11 @@ i.fa.fa-search {
   text-align: center;
   height: 200px;
   background-color: #;
-  margin-top: 10px;
   height: 200px;
   padding-top: 20px;
   color: #555555;
+  border-radius: 8px;
+  margin-bottom: 50px;
 }
 
 .home-jumbotron h1 {
@@ -288,12 +338,17 @@ h2 {
 }
 
 
+
+.contact i {
+  padding-right: 15px;
+}
+
 .contact i {
   padding-right: 15px;
 }
 
 .hours {
-  margin-right: 40px;
+  margin-right: 100px;
   padding-right: 0px;
 }
 
@@ -316,16 +371,17 @@ h2 {
   -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
   transition: width 1s, height 1s;
   position: relative;
+  border: none;
 }
 
 .thumbnail p {
   padding-bottom: 15px;
+  font-size: 1.2em;
 }
-
 
 .thumbnail:hover {
   width: 26rem;
-  height: 30rem;
+  height: 26rem;
 }
 
 .btn-handbook {
@@ -342,11 +398,11 @@ a.handbook {
 }
 
 a.handbook:hover {
-    font-size: 1.1em;
+    font-size: 105%;
 }
 
 a.handbook:hover h3{
-    font-size: 160%;
+    font-size: 170%;
 }
 
 a:hover {
@@ -361,27 +417,27 @@ a:hover h3  {
 
 
 #policy {
-  background-color: #4ac6d6;
+  color: #4ac6d6;
 }
 
 #procedure {
-  background-color: #4fc99a;
+  color: #4fc99a;
 }
 
 #form {
-  background-color: #f48fb1;
+  color: #f48fb1;
 }
 
 #slip {
-  background-color: #ffc035;
+  color: #ffc035;
 }
 
 #training {
-  background-color: rgb(244, 130, 80);
+  color: rgb(244, 130, 80);
 }
 
 #programs-handbook {
-  background-color: #c7c5e1;
+  color: #c7c5e1;
 }
 
 /*features*/
@@ -400,21 +456,20 @@ a.home-features:hover {
 font-size: 1.1em;
 }
 
-
 a:hover p  {
-  font-size: 110%;
+  font-size: 130%;
 }
 
 .ADP {
-  color: #f5ac58;
+  color: #AE9C6A;
 }
 
 .Wekan {
-    color: #2980b9;
+    color: #4682b4;
 }
 
 .Koha {
-  color:#58791B;
+  color: #008080;
 }
 
 .Slack {
@@ -422,9 +477,57 @@ a:hover p  {
 }
 
 .Schedule {
-  color: #1F6961;
+  color: #378258;
 }
 
 .Programs{
-  color: #c45488;
+  color: #AB5473;
+}
+
+.ILL {
+  color: #BF7EBE;
+}
+
+.Drive {
+  color: #4386F9;
+}
+
+.Email {
+  color: #DE5449;
+}
+
+.Reference {
+  color: #4386F9;
+}
+
+.Telescopes {
+  color: #2727ad;
+}
+
+.Museum {
+  color: #9b0000;
+}
+
+.Meeting {
+  color: #009b9b;
+}
+
+.Kindergarten {
+  color: #ae6a7c;
+}
+
+.Signup {
+  color: #6aae9c;
+}
+
+.Confirm {
+  color: #6aae7a
+}
+
+.Request {
+  color: #F08803;
+}
+
+.Google {
+  color: #4286F9;
 }

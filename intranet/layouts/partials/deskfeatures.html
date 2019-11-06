@@ -1,0 +1,33 @@
+{{ if isset .Site.Params "deskfeatures" }}
+{{ if .Site.Params.deskfeatures.enable }}
+{{ if gt (len .Site.Data.deskfeatures) 0 }}
+<section class="bar background-white">
+    <div class="container">
+
+        {{ range $index, $element := sort .Site.Data.deskfeatures "weight" }}
+		{{ if eq (mod $index 3) 0 }}
+		<div class="col-md-12">
+
+            <div class="row">
+		{{ end }}
+				<div class="col-md-4">
+                    <a href="{{ .url }}" target="_blank"> <div class="box-simple">
+                        <div class="icon deskfeatures">
+                            <i class="{{ .icon }}  {{ .name }}"></i>
+                        </div>
+                        <h3>{{ $element.name }}</h3>
+                        <p>{{ $element.description | markdownify }}</p>
+                    </div></a>
+                </div>
+		{{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.deskfeatures) 1 )) }}
+			</div>
+		</div>
+		{{ end }}
+        {{ end }}
+    </div>
+
+
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

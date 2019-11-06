@@ -1,0 +1,5 @@
+weight: 2
+name: "Email"
+icon: "fa fas fa-3x fa-envelope-o"
+description: "Your work email."
+url: "https://mail.google.com/"

@@ -46,6 +46,21 @@ paginate = 10
     url  = "https://calendar.google.com/calendar/r"
     weight = 4
 
+    [[menu.main]]
+    identifier="coverage"
+    name = "Schedule and Coverage"
+    parent = "schedules"
+    url = "https://calendar.leblibrary.com"
+    weight = 1
+
+    [[menu.main]]
+    identifier="calendar"
+    name = "Google Calendar"
+    parent = "schedules"
+    url = "https://calendar.google.com"
+    weight = 2
+
+
 [[menu.main]]
     identifier ="contact"
     name = "Contact"
@@ -61,7 +76,7 @@ paginate = 10
 
     [[menu.main]]
       identifier="lib_extensions"
-      name = "Library Extensions"
+      name = "Phone Extensions"
       parent = "contact"
       url = "https://docs.google.com/spreadsheets/d/10tignnh4u8aQZq8wgzmWWZv-q-2S_Sksi78Bt5NP03k/edit?usp=sharing"
       weight = 2
@@ -81,12 +96,21 @@ paginate = 10
       url = "https://drive.google.com/file/d/12gi1xm_bRqpZrWdBEdQTad0rdV13J1hS/view"
       weight = 4
 
+
+      [[menu.main]]
+      identifier="issue"
+      name = "Report an Issue"
+      parent = "contact"
+      url = "/report.html"
+      weight = 5
+
+
       [[menu.main]]
       identifier="emergency"
       name = "Emergency"
       parent = "contact"
       url = "/emergency.html"
-      weight = 5
+      weight = 6
 
 
 # Top bar social links menu
@@ -219,7 +243,14 @@ paginate = 10
     # For more informtion take a look at the README.
 
 
-[params.featuresdesk]
+[params.deskfeatures]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+
+[params.contactfeatures]
     enable = true
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
@@ -232,6 +263,18 @@ paginate = 10
       # at 'exampleSite/data/features'.
       # For more informtion take a look at the README.
 
+
+  [params.reportfeatures]
+      enable = true
+      # All features are defined in their own files. You can find example items
+      # at 'exampleSite/data/features'.
+      # For more informtion take a look at the README.
+
+  [params.reservationfeatures]
+      enable = true
+
+  [params.programfeatures]
+      enable = true
 
 [params.testimonials]
     enable = false
