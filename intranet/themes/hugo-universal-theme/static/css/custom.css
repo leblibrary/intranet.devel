@@ -133,16 +133,17 @@ div.form-staff_picks {
   position: absolute;
   background-color: #7EC28A;
   color: white;
-  top: 2.4px;
+  top: 5px;
   right: 2px;
   z-index: 100;
-  width:35px;
-  height: 35px;
+  width:30px;
+  height: 30px;
 }
 
 i.fa.fa-search {
   position: relative;
-  right: 7.5px;
+  right: 11px;
+  bottom: 2px;
   display: inline-block;
   font-size: 1.3em;
 }
@@ -154,15 +155,16 @@ i.fa.fa-search {
 
 .input-group .form-control {
     border-radius: 20px !important;
-    height: 40px;
+    height: 35px;
     padding-left: 30px;
     font-size: 1.2em;
 }
 
 /*enlarge social icons*/
 .social .fa-2x{
+  font-size: 2.3em;
   margin: 0px 15px;
-  padding-top: 8px;
+  padding-top: 6px;
 }
 
 
