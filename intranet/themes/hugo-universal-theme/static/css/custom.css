@@ -102,6 +102,19 @@ div.form-staff_picks {
   font-size: 1.2em;
 }
 
+
+/*top bar*/
+
+#top {
+  background: #999999;
+  padding: 5px 0;
+}
+
+#top .social a {
+  color: #ffffff;
+  padding-right: 35px;
+}
+
 /*Search bar and button styling*/
 
 #top .container {
@@ -148,21 +161,10 @@ i.fa.fa-search {
 
 /*enlarge social icons*/
 .social .fa-2x{
-  font-size: 2.7em;
   margin: 0px 15px;
-  padding-top: 4px;
+  padding-top: 8px;
 }
 
-
-/*top bar*/
-#top .social a {
-  color: #ffffff;
-  padding-right: 35px;
-}
-
-#top {
-  background: #999999;
-}
 
 /* home banner*/
 .header {

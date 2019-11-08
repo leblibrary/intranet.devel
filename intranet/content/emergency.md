@@ -5,7 +5,7 @@ id: "emergency"
 ---
 
 <div class="container">
-<h1>Immediate Safety</h1>
+<h2>Immediate Safety</h2>
 <div class="section-safety"
 <p><strong>Emergency button at desk</strong></p>
 
@@ -19,22 +19,22 @@ id: "emergency"
 </ul>
 
 </div>
-<h1>Snow</h1>
+<h2>Snow</h2>
 <p>Call COMPANY at 603-000-0000 for plowing. Notify PERSON/allstaff Slack channel.</p>
 
-<h1>Flood</h1>
+<h2>Flood</h2>
 <p>Call COMPANY at 603-000-0000. Notify PERSON/allstaff Slack channel.</p>
 
-<h1>Plumbing</h1>
+<h2>Plumbing</h2>
 
 <p>Call COMPANY at 603-000-0000. Notify PERSON/allstaff Slack channel.</p>
 
-<h1>Heat</h1>
+<h2>Heat</h2>
 
 <p>Call Honeywell at 603-000-0000. Notify PERSON/allstaff Slack channel.</p>
 
 
-<h1>Fire</h1>
+<h2>Fire</h2>
 
 <p>Call the fire department at 911. Notify PERSON/allstaff Slack channel.</p>
 </div>
