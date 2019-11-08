@@ -60,6 +60,12 @@ paginate = 10
     url = "https://calendar.google.com"
     weight = 2
 
+    [[menu.main]]
+    identifier="saturday"
+    name = "Saturday Schedule"
+    parent = "schedules"
+    url = "https://docs.google.com/spreadsheets/d/1IVftj3v8XxLvawIywHAp5D8w4rg25-EUpvdGILfHQgA/edit?usp=sharing"
+    weight = 3
 
 [[menu.main]]
     identifier ="contact"

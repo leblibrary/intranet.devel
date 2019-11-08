@@ -6,19 +6,19 @@ id: "emergency"
 
 <div class="container">
 <h1>Immediate Safety</h1>
-<p>If you or a patron feels unsafe, do not hesitate to use the following options:<p>
-
+<div class="section-safety"
 <p><strong>Emergency button at desk</strong></p>
-  <ul>
-    <li>This will notify the police, and they will arrive within x minutes. This is a great and quick option, especially if it feels unsafe to place a phone call in front of patrons.</li>
-  </ul>
 
+  <ul>
+    <li>This will notify the police, and they will arrive within minutes.</li>
+  </ul>
+</br>
 <p><strong>Call 911 or dispatch at 603-448-1212.</strong></p>
 <ul>
-  <li><strong>Lebanon Library:</strong> Call from Amy's office if you would like privacy from patrons.</li>
-  <li><strong>Kilton Library:</strong> Call from Sean's office if you would like privacy from patrons.</li>
+  <li>Call from Sean or Amy's office if you would like privacy from patrons.</li>
 </ul>
 
+</div>
 <h1>Snow</h1>
 <p>Call COMPANY at 603-000-0000 for plowing. Notify PERSON/allstaff Slack channel.</p>
 

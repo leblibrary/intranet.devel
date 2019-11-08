@@ -23,3 +23,7 @@ id: "handbook"
   <li><a href="https://docs.google.com/document/d/1jPrIvRVe3zzDa6fcZg5tkTgJbubp03wd74QFaDaV15U/edit#heading=h.ifk18cgsk57l" target="_blank">Training Checklist</a></li>
   <li><a href="https://docs.google.com/document/d/1YO8Zu01ju3h9xt3zftaLBoof2a8xJgmm3bTH9q2499M/edit?usp=sharing" target="_blank">Koha Training</a></li>
 </ul>
+
+
+</div>
+</div>

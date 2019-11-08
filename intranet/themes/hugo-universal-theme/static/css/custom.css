@@ -425,7 +425,7 @@ a:hover h3  {
 }
 
 #form {
-  color: #f48fb1;
+  color: #b1cb2a;
 }
 
 #slip {
@@ -438,6 +438,10 @@ a:hover h3  {
 
 #programs-handbook {
   color: #c7c5e1;
+}
+
+#social {
+  color: #f48fb1;
 }
 
 /*features*/
@@ -530,4 +534,12 @@ a:hover p  {
 
 .Google {
   color: #4286F9;
+}
+
+#docusign {
+  color: #b0c4de;
+}
+
+div.section-safety {
+  padding-left: 35px;
 }
