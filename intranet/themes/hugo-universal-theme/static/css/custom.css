@@ -2,6 +2,11 @@
 
 /*home page global styles*/
 
+.main-header {
+  padding-top: 90px;
+  margin-top: -90px;
+}
+
 .contact-message {
   text-align: center;
   padding-bottom: 30px;
