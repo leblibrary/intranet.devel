@@ -107,7 +107,7 @@ paginate = 10
       identifier="issue"
       name = "Report an Issue"
       parent = "contact"
-      url = "/report.html"
+      url = "http://devel.intranet.leblibrary.com/#report"
       weight = 5
 
 
