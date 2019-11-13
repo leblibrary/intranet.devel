@@ -1,7 +1,4 @@
 
-
-
-
 <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
 
     <div class="navbar navbar-default yamm" role="navigation" id="navbar">
@@ -33,7 +30,7 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       {{ range .Children }}
-                        <li><a href="{{ .URL }}" target="_blank">{{ .Name }}</a></li>
+                        <li><a href="{{ .URL }}" {{ if .Pre }}target="{{ .Pre }}"{{ end }} >{{ .Name }}</a></li>
                       {{ end }}
                     </ul>
                     {{ else }}

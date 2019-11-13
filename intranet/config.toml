@@ -14,9 +14,7 @@ googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
 
-[blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true
+
 
 [menu]
 
@@ -43,8 +41,9 @@ paginate = 10
   [[menu.main]]
     identifier = "schedules"
     name = "Schedules"
-    url  = "https://calendar.google.com/calendar/r"
+    url  = "https://calendar.leblibrary.com"
     weight = 4
+    pre = "_blank"
 
     [[menu.main]]
     identifier="coverage"
@@ -52,6 +51,7 @@ paginate = 10
     parent = "schedules"
     url = "https://calendar.leblibrary.com"
     weight = 1
+    pre = "_blank"
 
     [[menu.main]]
     identifier="calendar"
@@ -59,6 +59,7 @@ paginate = 10
     parent = "schedules"
     url = "https://calendar.google.com"
     weight = 2
+    pre = "_blank"
 
     [[menu.main]]
     identifier="saturday"
@@ -66,6 +67,7 @@ paginate = 10
     parent = "schedules"
     url = "https://docs.google.com/spreadsheets/d/1IVftj3v8XxLvawIywHAp5D8w4rg25-EUpvdGILfHQgA/edit?usp=sharing"
     weight = 3
+    pre = "_blank"
 
 [[menu.main]]
     identifier ="contact"
@@ -79,6 +81,7 @@ paginate = 10
     parent = "contact"
     url = "https://leblibrary.slack.com"
     weight = 1
+    pre = "_blank"
 
     [[menu.main]]
       identifier="lib_extensions"
@@ -86,6 +89,7 @@ paginate = 10
       parent = "contact"
       url = "https://docs.google.com/spreadsheets/d/10tignnh4u8aQZq8wgzmWWZv-q-2S_Sksi78Bt5NP03k/edit?usp=sharing"
       weight = 2
+      pre = "_blank"
 
       [[menu.main]]
       identifier="staff_dir"
@@ -93,7 +97,7 @@ paginate = 10
       parent = "contact"
       url = "https://docs.google.com/spreadsheets/d/1Q1kC27vcRjcOPzp7boGpI5JIO-UdivEiB5V899qzPpk/edit#gid=0"
       weight = 3
-
+      pre = "_blank"
 
       [[menu.main]]
       identifier="city_dir"
@@ -101,13 +105,13 @@ paginate = 10
       parent = "contact"
       url = "https://drive.google.com/file/d/12gi1xm_bRqpZrWdBEdQTad0rdV13J1hS/view"
       weight = 4
-
+      pre = "_blank"
 
       [[menu.main]]
       identifier="issue"
       name = "Report an Issue"
       parent = "contact"
-      url = "http://devel.intranet.leblibrary.com/#report"
+      url = "/#report"
       weight = 5
 
 
@@ -242,6 +246,9 @@ paginate = 10
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
 
+[params.building_issues]
+    enable = true
+
 [params.features]
     enable = true
     # All features are defined in their own files. You can find example items
@@ -310,3 +317,7 @@ paginate = 10
     enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true

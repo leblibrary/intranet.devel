@@ -107,6 +107,19 @@ div.form-staff_picks {
   font-size: 1.2em;
 }
 
+/*Building and Grounds Form*/
+
+.building {
+  padding: 0 20%;
+  }
+
+input[type=checkbox] {
+  margin: 6px 4px;
+  margin-top: 4px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
 
 /*top bar*/
 

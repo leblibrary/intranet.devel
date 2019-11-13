@@ -1,0 +1,82 @@
+<div class="container building" id="building-issues">
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <section>
+
+                {{ .Content }}
+
+                {{ if isset .Site.Params "email" }}
+
+                <div class="heading text-center">
+                  <h3>Building and Grounds Form</h3>
+                </div>
+
+                <div id="contact-message" class ="contact-message">Please check the <a href="https://buildingreport.leblibrary.com/">Building and Grounds Report</a> to see if the problem has already been reported.</div>
+
+                <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://formcarry.com/s/vO9H6hka4zM">
+                    <div class="row form-building">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                              <label for="name">{{ i18n "contactName" }}</label>
+                                <input type="text" class="form-control" name="name" id="name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="email">{{ i18n "contactMail" }}</label>
+                                <input type="text" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="message">Subject (short description):</label>
+                              <input type="text" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="message">Complete description of the issue:</label>
+                                <textarea id="message" class="form-control" name="message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <label for="form-check"> Location of the issue:</label>
+                          <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="check-kilton">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Kilton Library
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="check-leb">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Lebanon Library
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="check-other">
+                          <label class="form-check-label" for="defaultCheck1">
+                            Other
+                          </label>
+                        </div>
+                       </div>
+
+                        <div class="col-sm-12 text-center">
+                          <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>Send</button>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </form>
+
+                {{ end }}
+
+            </section>
+
+        </div>
+
+
+    </div>
+    <!-- /.row -->
+</div>
