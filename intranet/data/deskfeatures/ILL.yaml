@@ -1,4 +1,4 @@
-weight: 5
+weight: 4
 name: "ILL System"
 icon: "fa fas fa-3x fa-circle"
 description: "Check on patron's ILL request status."

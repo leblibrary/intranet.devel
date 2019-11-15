@@ -384,26 +384,33 @@ h2 {
 
 /* handbook */
 
+section.bar background-white {
+  margin-bottom: 0px;
+}
+
 .thumbnail {
   text-align: center;
   width: 25rem;
-  height: 29rem;
-  padding-top: 40px;
+  height: 20rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 5rem auto;
   -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
   transition: width 1s, height 1s;
   position: relative;
   border: none;
 }
+.row.last {
+  padding-bottom: 20px;
+}
 
 .thumbnail p {
-  padding-bottom: 15px;
-  font-size: 1.2em;
+  font-size: 1.15em;
 }
 
 .thumbnail:hover {
-  width: 26rem;
-  height: 26rem;
+  width: 25.5rem;
+  height: 20.1rem;
 }
 
 .btn-handbook {
@@ -438,31 +445,31 @@ a:hover h3  {
 }
 
 
-#policy {
+.Policies {
   color: #4ac6d6;
 }
 
-#procedure {
+.Training {
   color: #4fc99a;
 }
 
-#form {
+.Form {
   color: #b1cb2a;
 }
 
-#slip {
+.Slip {
   color: #ffc035;
 }
 
-#training {
+.Training {
   color: rgb(244, 130, 80);
 }
 
-#programs-handbook {
+.Programs {
   color: #c7c5e1;
 }
 
-#social {
+.Social {
   color: #f48fb1;
 }
 
@@ -502,6 +509,10 @@ a:hover p  {
   color: #611f69;
 }
 
+.Library {
+  color:
+}
+
 .Schedule {
   color: #378258;
 }
@@ -530,6 +541,10 @@ a:hover p  {
   color: #2727ad;
 }
 
+.State {
+  color: #388258
+}
+
 .Museum {
   color: #9b0000;
 }
@@ -539,15 +554,15 @@ a:hover p  {
 }
 
 .Kindergarten {
-  color: #ae6a7c;
+  color: #4c368c;
 }
 
 .Signup {
-  color: #6aae9c;
+  color: #a2208a;
 }
 
 .Confirm {
-  color: #6aae7a
+  color: #00853e;
 }
 
 .Request {
@@ -558,10 +573,39 @@ a:hover p  {
   color: #4286F9;
 }
 
+
+
+/*Readers Advisory*/
+
+
+.Fantastic {
+  color: #16193B;
+}
+
+.Novelist {
+  color: #E98B19;
+}
+
+.Series {
+  color: #87C440;
+}
+
 #docusign {
   color: #b0c4de;
 }
 
-div.section-safety {
+
+
+
+/*emergency*/
+.section-emergency {
   padding-left: 35px;
+}
+
+.emergency-section {
+    padding-top: 50px;
+}
+
+.fire {
+  padding-bottom: 40px;
 }

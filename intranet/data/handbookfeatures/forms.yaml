@@ -1,5 +1,5 @@
 weight: 3
-name: "Forms"
-icon: "fa fa-book"
+name: "Docusign Forms"
+icon: "fa fa-3x fa-file-text"
 description: "DocuSign forms for reimbursement and travel."
 url: "https://app.docusign.com/templates?view=shared"

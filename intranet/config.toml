@@ -47,7 +47,7 @@ paginate = 10
 
     [[menu.main]]
     identifier="coverage"
-    name = "Schedule and Coverage"
+    name = "Desk Coverage"
     parent = "schedules"
     url = "https://calendar.leblibrary.com"
     weight = 1
@@ -247,6 +247,9 @@ paginate = 10
     # For more informtion take a look at the README.
 
 [params.building_issues]
+    enable = true
+
+[params.rafeatures]
     enable = true
 
 [params.features]

@@ -1,10 +1,10 @@
-{{ if isset .Site.Params "handbookfeatures" }}
-{{ if .Site.Params.handbookfeatures.enable }}
-{{ if gt (len .Site.Data.handbookfeatures) 0 }}
+{{ if isset .Site.Params "rafeatures" }}
+{{ if .Site.Params.rafeatures.enable }}
+{{ if gt (len .Site.Data.rafeatures) 0 }}
 <section class="bar background-white">
     <div class="container">
 
-        {{ range $index, $element := sort .Site.Data.handbookfeatures "weight" }}
+        {{ range $index, $element := sort .Site.Data.rafeatures "weight" }}
 		{{ if eq (mod $index 3) 0 }}
 		<div class="col-md-12">
 
@@ -12,14 +12,14 @@
 		{{ end }}
 				<div class="col-md-4">
                     <a href="{{ .url }}" target="_blank"> <div class="box-simple">
-                        <div class="icon handbookfeatures">
-                            <i class="{{ .icon }} {{ .name }}"></i>
+                        <div class="icon rafeatures">
+                            <i class="{{ .icon }}  {{ .name }}"></i>
                         </div>
                         <h3>{{ $element.name }}</h3>
                         <p>{{ $element.description | markdownify }}</p>
                     </div></a>
                 </div>
-		{{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.handbookfeatures) 1 )) }}
+		{{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.rafeatures) 1 )) }}
 			</div>
 		</div>
 		{{ end }}
