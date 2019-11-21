@@ -274,6 +274,8 @@ h3.desk-headers {
   margin-top: -90px;
 }
 
+.deskfeatures
+
 /*accordion*/
 .accordion {
 }
@@ -304,13 +306,13 @@ h3.desk-headers {
 
 .home-jumbotron {
   text-align: center;
-  height: 200px;
+  height: 150px;
+  width: 700px;
   background-color: white;
-  height: 200px;
-  padding-top: 20px;
+  padding-top: 0px;
   color: #555555;
   border-radius: 8px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .home-jumbotron h1 {

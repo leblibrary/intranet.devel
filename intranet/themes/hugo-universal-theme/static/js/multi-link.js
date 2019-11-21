@@ -6,5 +6,5 @@ function multiLink() {
   window.open("https://leblibrary.com/booking-calendar/signin");
   window.open("https://wekan.leblibrary.com/");
   window.open("https://leblibrary.com/");
-  window.open("https://calendar.google.com/calendar/r")
+  window.open("https://calendar.leblibrary.com/")
 };
