@@ -238,7 +238,11 @@ i.fa.fa-search {
   position: -webkit-sticky;
   position: sticky;
   top: 100px;
+  margin-bottom: 20px;
+}
 
+.div .text-md-left {
+    text-align: left !important;
 }
 
 /* to change sidenav color when active - doesn't work yet*/
@@ -270,18 +274,11 @@ h3.desk-headers {
   margin-top: -90px;
 }
 
-
-/*jumbotron: on desk*/
-
-.desk-jumbotron {
-  background-color: #;
-  text-align: center;
-  margin-bottom: 20px;
-  margin-left: 0px;
-  padding-left: 0px;
-  height: 130px;
-  padding-top: 30px;
+/*accordion*/
+.accordion {
 }
+
+/*jumbotron*/
 
 .jumbotron h1 {
   font-size: 2em;
@@ -305,12 +302,10 @@ h3.desk-headers {
 
 }
 
-/*jumbotron: home page*/
-
 .home-jumbotron {
   text-align: center;
   height: 200px;
-  background-color: #;
+  background-color: white;
   height: 200px;
   padding-top: 20px;
   color: #555555;
