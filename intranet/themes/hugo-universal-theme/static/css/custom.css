@@ -253,6 +253,11 @@ i.fa.fa-search {
   background-color: #6aae7a;
 }
 
+#sidenav-desk li.active {
+  color: #ffffff;
+  background-color: red;
+}
+
 /*on desk*/
 
 
@@ -274,7 +279,6 @@ h3.desk-headers {
   margin-top: -90px;
 }
 
-.deskfeatures
 
 /*accordion*/
 .accordion {
