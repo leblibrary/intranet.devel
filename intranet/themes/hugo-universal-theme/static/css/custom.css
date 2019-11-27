@@ -245,18 +245,13 @@ i.fa.fa-search {
     text-align: left !important;
 }
 
-/* to change sidenav color when active - doesn't work yet*/
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  color: #ffffff;
+/*change sidenav color when active */
+.nav-pills li  a.active {
   background-color: #6aae7a;
+  color: white;
 }
 
-#sidenav-desk li.active {
-  color: #ffffff;
-  background-color: red;
-}
+
 
 /*on desk*/
 
