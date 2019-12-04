@@ -13,7 +13,7 @@
 
     <div class="col-xs-5">
         {{ .Site.Params.topbar.text | safeHTML }}
-      <form id="searchform" class="header-search" action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+      <form id="searchform" class="search-form" action="https://devel.intranet.leblibrary.com/" method="get" accept-charset="UTF-8" role="search">
         <div class="input-group">
           <input type="search" name="q" class="form-control" placeholder="{{ i18n "searchTitle" }}">
           <input type="hidden" name="sitesearch" value="{{ .Site.BaseURL }}">
