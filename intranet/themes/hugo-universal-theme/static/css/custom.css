@@ -239,6 +239,12 @@ i.fa.fa-search {
   position: sticky;
   top: 100px;
   margin-bottom: 20px;
+  color: #555555;
+}
+
+.nav-pills li a {
+  color: #555555;
+  font-weight: bold;
 }
 
 .div .text-md-left {
@@ -248,10 +254,13 @@ i.fa.fa-search {
 /*change sidenav color when active */
 .nav-pills li  a.active {
   background-color: #6aae7a;
-  color: white;
+  color: #ffffff;
 }
 
-
+.nav-pills li  a.hover {
+  color: #555555;
+  background-color: #acd2b5;
+}
 
 /*on desk*/
 

@@ -1,3 +1,8 @@
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
 
 <div class="container-fluid">
 
@@ -36,8 +41,9 @@
 
          {{ .Content }}
 
+         <script src="{{ "js/active.js" | relURL }}"></script>
 
-<script src="{{ "js/active.js" | relURL }}"></script>
+
         </div>
         </div>
         </div>
@@ -45,3 +51,4 @@
 </div>
 </div>
 </div>
+</html>
