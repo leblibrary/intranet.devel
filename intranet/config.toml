@@ -1,4 +1,4 @@
-baseurl = "https://devel.intranet.leblibrary.com/"
+baseurl = "https://intranet.leblibrary.com/"
 uglyurls = true
 title = "Intranet"
 theme = "hugo-universal-theme"
