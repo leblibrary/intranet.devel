@@ -189,7 +189,7 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/leb-logo.jpg"
+    logo = "img/leb-logo-3.jpg"
     logo_small = "img/leb-small-logo.png"
     address = """<div class="contact">
         <p><strong>Lebanon Library</strong></p>

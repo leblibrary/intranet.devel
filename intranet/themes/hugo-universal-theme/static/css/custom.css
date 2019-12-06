@@ -125,12 +125,24 @@ input[type=checkbox] {
 
 #top {
   background: #999999;
-  padding: 5px 0;
+  padding: 0px;
 }
 
 #top .social a {
   color: #ffffff;
-  padding-right: 35px;
+/*padding-right: 35px*/
+}
+
+/*enlarge social icons*/
+.social .fa-2x{
+  font-size: 2.3em;
+  margin: 0px 15px;
+  padding-top: 6px;
+}
+
+.social {
+  padding-bottom: 15px;
+  padding-right: ;
 }
 
 /*Search bar and button styling*/
@@ -176,13 +188,6 @@ i.fa.fa-search {
     height: 35px;
     padding-left: 30px;
     font-size: 1.2em;
-}
-
-/*enlarge social icons*/
-.social .fa-2x{
-  font-size: 2.3em;
-  margin: 0px 15px;
-  padding-top: 6px;
 }
 
 
