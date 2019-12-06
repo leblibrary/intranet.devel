@@ -2,7 +2,7 @@
 {{ if .Site.Params.rafeatures.enable }}
 {{ if gt (len .Site.Data.rafeatures) 0 }}
 <section class="bar background-white">
-    <div class="container desk-container">
+    <div class="container desk-container col-md-12">
 
         {{ range $index, $element := sort .Site.Data.rafeatures "weight" }}
 		{{ if eq (mod $index 3) 0 }}
