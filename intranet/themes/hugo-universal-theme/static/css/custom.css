@@ -283,6 +283,9 @@ h3.desk-headers {
   margin-top: -90px;
 }
 
+.desk-container {
+  padding-right: 155px;
+}
 
 /*accordion*/
 .accordion {

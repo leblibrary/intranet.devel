@@ -2,7 +2,7 @@
 {{ if .Site.Params.programfeatures.enable }}
 {{ if gt (len .Site.Data.programfeatures) 0 }}
 <section class="bar background-white">
-    <div class="container">
+    <div class="container desk-container">
 
         {{ range $index, $element := sort .Site.Data.programfeatures "weight" }}
 		{{ if eq (mod $index 3) 0 }}
