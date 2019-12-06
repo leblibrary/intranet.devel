@@ -1,5 +1,19 @@
 /* your styles go here */
 
+/* navbar */
+
+.dropdown-menu a.active {
+  background-color: none;
+}
+
+.dropdown-menu .active.a {
+  background-color: none;
+}
+
+.dropdown-menu .active a:focus {
+  background-color: none;
+}
+
 /*home page global styles*/
 
 .main-header {
@@ -257,7 +271,7 @@ i.fa.fa-search {
 }
 
 /*change sidenav color when active */
-.nav-pills li  a.active {
+#sidenav .nav-pills li  a.active {
   background-color: #6aae7a;
   color: #ffffff;
 }
