@@ -1,5 +1,5 @@
 weight: 6
-name: "Social Media"
-icon: "fa fa-3x fa-heart"
-description: "Account information."
-url: "https://drive.google.com/drive/u/0/folders/1-GyOm9LwaU9gKmUmlroqwdkeBlGPZ-vC"
+name: "Google Drive"
+icon: "fa fas fa-3x fa-file-text"
+description: "Documents, spreadsheets, and other files."
+url: "https://drive.google.com"

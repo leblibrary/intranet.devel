@@ -75,20 +75,13 @@ paginate = 10
     url  = "/contact.html"
     weight = 5
 
-    [[menu.main]]
-    identifier="slack"
-    name = "Slack"
-    parent = "contact"
-    url = "https://leblibrary.slack.com"
-    weight = 1
-    pre = "_blank"
 
     [[menu.main]]
       identifier="lib_extensions"
       name = "Phone Extensions"
       parent = "contact"
       url = "https://docs.google.com/spreadsheets/d/10tignnh4u8aQZq8wgzmWWZv-q-2S_Sksi78Bt5NP03k/edit?usp=sharing"
-      weight = 2
+      weight = 1
       pre = "_blank"
 
       [[menu.main]]
@@ -96,7 +89,7 @@ paginate = 10
       name = "Internal Staff Directory"
       parent = "contact"
       url = "https://docs.google.com/spreadsheets/d/1Q1kC27vcRjcOPzp7boGpI5JIO-UdivEiB5V899qzPpk/edit#gid=0"
-      weight = 3
+      weight = 2
       pre = "_blank"
 
       [[menu.main]]
@@ -104,7 +97,7 @@ paginate = 10
       name = "City Directory"
       parent = "contact"
       url = "https://drive.google.com/file/d/12gi1xm_bRqpZrWdBEdQTad0rdV13J1hS/view"
-      weight = 4
+      weight = 3
       pre = "_blank"
 
       [[menu.main]]
@@ -112,7 +105,7 @@ paginate = 10
       name = "Report an Issue"
       parent = "contact"
       url = "/#report"
-      weight = 5
+      weight = 4
 
 
       [[menu.main]]
@@ -120,7 +113,7 @@ paginate = 10
       name = "Emergency"
       parent = "contact"
       url = "/emergency.html"
-      weight = 6
+      weight = 5
 
 
 # Top bar social links menu
