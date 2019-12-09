@@ -2,17 +2,10 @@
 
 /* navbar */
 
-.dropdown-menu a.active {
-  background-color: none;
+ul.nav ul.dropdown-menu li a {
+  background-color: inherit !important;
 }
 
-.dropdown-menu .active.a {
-  background-color: none;
-}
-
-.dropdown-menu .active a:focus {
-  background-color: none;
-}
 
 /*home page global styles*/
 
@@ -271,7 +264,7 @@ i.fa.fa-search {
 }
 
 /*change sidenav color when active */
-#sidenav .nav-pills li  a.active {
+#sidenav-desk .nav-pills li  a.active {
   background-color: #6aae7a;
   color: #ffffff;
 }
@@ -621,7 +614,9 @@ a:hover p  {
   color: #b0c4de;
 }
 
-
+i .Goodreads {
+  color: #463020 !important;
+}
 
 
 /*emergency*/

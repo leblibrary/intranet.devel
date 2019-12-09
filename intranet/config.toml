@@ -211,8 +211,11 @@ paginate = 10
     <li class="clearfix text-white"><span> Monday - Thursday: </span>
     <div class="value pull-right flip"> 10:00 am - 8:00 pm
     </div></li>
-    <li class="clearfix text-white"><span> Friday - Sunday : </span>
+    <li class="clearfix text-white"><span> Friday - Saturday: </span>
     <div class="value pull-right flip"> 10:00 am - 5:00 pm
+    </div></li>
+    <li class="clearfix text-white"><span> Sunday: </span>
+    <div class="value pull-right flip"> Open seasonally 1:00 am - 5:00  pm from Labor Day to end of March.
     </div></li>
     </ul>
      """
