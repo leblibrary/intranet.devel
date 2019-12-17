@@ -45,8 +45,8 @@ label {
 #out_of_library.container {
   padding-top: 75px;
   padding-bottom: 75px;
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 .contact-message {
@@ -63,7 +63,8 @@ div.form-out-of-library {
 #staff_picks.container {
   display:flex;
   justify-content: center;
-  padding: 75px 300px;
+  padding-left: 20%;
+  padding-right: 20%
 }
 
 div.form-staff_picks {
