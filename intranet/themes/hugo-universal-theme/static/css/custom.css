@@ -380,8 +380,6 @@ h2 {
   color: #EDEDED;
 }
 
-
-
 .contact i {
   padding-right: 15px;
 }
@@ -391,12 +389,13 @@ h2 {
 }
 
 .hours {
-  margin-right: 100px;
-  padding-right: 0px;
+  padding-right: 5%;
 }
+
 
 .contact2 {
   padding-top: 35px;
+  align-items: center;
 }
 
 #copyright {
