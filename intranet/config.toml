@@ -199,7 +199,7 @@ paginate = 10
     address2 = """<div class="contact2">
         <p><strong>Kilton Library</strong></p>
         <i class="fa fa-location-arrow pull-left" aria-hidden="true"></i>
-        <p>80 S. Main St
+        <p>80 Main St
         <br><span="second-line">West Lebanon, NH 03784</span></p>
         <i class="fa fa-phone pull-left" aria-hidden="true"></i>
         <p>(603) 298-8544</p>
