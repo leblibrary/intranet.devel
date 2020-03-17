@@ -1,0 +1,5 @@
+weight: 7
+name: "Staff Picks"
+icon: "fa fa-3x fa-thumbs-up"
+description: "Share your recommendation for a great book, movie, or other resource with our patrons."
+url: "/staff_picks.html"

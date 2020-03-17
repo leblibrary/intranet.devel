@@ -78,7 +78,7 @@ paginate = 10
 
     [[menu.main]]
       identifier="lib_extensions"
-      name = "Phone Extensions"
+      name = "Library, Safety, and Maintenance Directory"
       parent = "contact"
       url = "https://docs.google.com/spreadsheets/d/10tignnh4u8aQZq8wgzmWWZv-q-2S_Sksi78Bt5NP03k/edit?usp=sharing"
       weight = 1
@@ -96,25 +96,16 @@ paginate = 10
       identifier="city_dir"
       name = "City Directory"
       parent = "contact"
-      url = "https://drive.google.com/file/d/12gi1xm_bRqpZrWdBEdQTad0rdV13J1hS/view"
+      url = "https://drive.google.com/file/d/1wQOPUHjPVTASaAE-yyXIJ5mk3YU80-VA/view?usp=sharing"
       weight = 3
       pre = "_blank"
 
       [[menu.main]]
       identifier="issue"
-      name = "Report an Issue"
+      name = "Report Issue"
       parent = "contact"
       url = "/#report"
       weight = 4
-
-
-      [[menu.main]]
-      identifier="emergency"
-      name = "Emergency"
-      parent = "contact"
-      url = "/emergency.html"
-      weight = 5
-
 
 # Top bar social links menu
 
@@ -189,7 +180,7 @@ paginate = 10
         <i class="fa fa-location-arrow pull-left" aria-hidden="true"></i>
         <p>9 East Park St
         <br>
-        <span="second-line">Lebanon, NH 03745</span></p>
+        <span="second-line">Lebanon, NH 03766</span></p>
         <i class="fa fa-phone pull-left" aria-hidden="true"></i>
         <p>(603) 448-2459</p>
         <i class="fa fa-envelope-o pull-left" aria-hidden="true"></i>
