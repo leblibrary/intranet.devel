@@ -6,6 +6,20 @@ ul.nav ul.dropdown-menu li a {
   background-color: inherit !important;
 }
 
+/*announcement banner*/
+
+.announcement p{
+  font-size: 1.5em;
+  margin-top: 2em;
+  padding: 1.1em;
+  text-align: center;
+  background-color: #3CA3B8;
+  color: white;
+}
+
+.announcement p a[href]{
+  color: white;
+}
 
 /*home page global styles*/
 
