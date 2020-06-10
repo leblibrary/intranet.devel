@@ -47,9 +47,9 @@ paginate = 10
 
     [[menu.main]]
     identifier="coverage"
-    name = "Desk Coverage"
+    name = "COVID-19 Desk Coverage"
     parent = "schedules"
-    url = "https://calendar.leblibrary.com"
+    url = "https://docs.google.com/spreadsheets/d/1Kgspg1DVeiWpSfYEE-Sk0KXNu8TtQc2-ILfmLJyiuzs/edit?usp=sharing&urp=gmail_link"
     weight = 1
     pre = "_blank"
 
@@ -61,14 +61,23 @@ paginate = 10
     weight = 2
     pre = "_blank"
 
-    [[menu.main]]
-    identifier="saturday"
-    name = "Saturday Schedule"
-    parent = "schedules"
-    url = "https://docs.google.com/spreadsheets/d/1IVftj3v8XxLvawIywHAp5D8w4rg25-EUpvdGILfHQgA/edit?usp=sharing"
-    weight = 3
-    pre = "_blank"
+  #  [[menu.main]]
+  #  identifier="saturday"
+  #  name = "Saturday Schedule"
+  #  parent = "schedules"
+  #  url = "https://docs.google.com/spreadsheets/d/1IVftj3v8XxLvawIywHAp5D8w4rg25-EUpvdGILfHQgA/edit?usp=sharing"
+  #  weight = 3
+  #  pre = "_blank"
 
+#  [[menu.main]]
+#  identifier="coverage"
+#  name = "Desk Coverage"
+#  parent = "schedules"
+#  url = "https://calendar.leblibrary.com/"
+#  weight = 1
+#  pre = "_blank"
+
+*//
 [[menu.main]]
     identifier ="contact"
     name = "Contact"
