@@ -115,6 +115,14 @@ paginate = 10
       url = "/#report"
       weight = 4
 
+      [[menu.main]]
+      identifier="contact-us"
+      name = "Contact Us"
+      parent = "contact"
+      url = "/contact-form.html"
+      weight = 5
+
+
 # Top bar social links menu
 
 [[menu.topbar]]
