@@ -653,3 +653,16 @@ a:hover p  {
 .fire {
   padding-bottom: 40px;
 }
+
+.contact-text {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contact-message-area {
+  height: 200px !important;
+}
+
+.form-group {
+  padding-top: 5%;
+}
