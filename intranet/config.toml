@@ -104,7 +104,7 @@ paginate = 10
       identifier="city_dir"
       name = "City Directory"
       parent = "contact"
-      url = "https://drive.google.com/file/d/1wQOPUHjPVTASaAE-yyXIJ5mk3YU80-VA/view?usp=sharing"
+      url = "https://docs.google.com/spreadsheets/d/1iM955FcJ70ceXiZEtEchSIfstE57oGNWBd9if0sTJJM/edit#gid=1350469998"
       weight = 3
       pre = "_blank"
 
