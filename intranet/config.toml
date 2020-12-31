@@ -86,7 +86,7 @@ paginate = 10
 
     [[menu.main]]
       identifier="lib_extensions"
-      name = "Library, Safety, and Maintenance Directory"
+      name = "Library Directory"
       parent = "contact"
       url = "https://docs.google.com/spreadsheets/d/10tignnh4u8aQZq8wgzmWWZv-q-2S_Sksi78Bt5NP03k/edit?usp=sharing"
       weight = 1
