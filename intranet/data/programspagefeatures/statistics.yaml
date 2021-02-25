@@ -1,0 +1,5 @@
+weight: 5
+name: "Submit Statistics"
+icon: "fa fas fa-3x fa-chart-line"
+description: "Fill out this Program Attendance Form to submit statistics to the state."
+url: "https://forms.gle/kLpdLm268hBjGiAA9"

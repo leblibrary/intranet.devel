@@ -257,42 +257,26 @@ paginate = 10
 
 [params.features]
     enable = true
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
-
 
 [params.deskfeatures]
     enable = true
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
-
-
+  
 [params.contactfeatures]
     enable = true
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
-
 
   [params.handbookfeatures]
       enable = true
-      # All features are defined in their own files. You can find example items
-      # at 'exampleSite/data/features'.
-      # For more informtion take a look at the README.
-
 
   [params.reportfeatures]
       enable = true
-      # All features are defined in their own files. You can find example items
-      # at 'exampleSite/data/features'.
-      # For more informtion take a look at the README.
-
+ 
   [params.reservationfeatures]
       enable = true
 
   [params.programfeatures]
+      enable = true
+
+  [params.programspagefeatures]
       enable = true
 
 [params.testimonials]
