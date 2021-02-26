@@ -1,9 +1,18 @@
 /* your styles go here */
 
+/* to increase items size:
+
+transition: all .2s ease-in-out;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 20%) */
+
 /* navbar */
 
 ul.nav ul.dropdown-menu li a {
   background-color: inherit !important;
+}
+
+#navigation > ul.navbar-nav > li > a {
+  text-decoration: none;
 }
 
 /*announcement banner*/
@@ -443,8 +452,10 @@ section.bar background-white {
 }
 
 .thumbnail:hover {
-  width: 25.5rem;
-  height: 20.1rem;
+/* width: 25.5rem;
+  height: 20.1rem; */
+  transition: all .2s ease-in-out;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 20%);
 }
 
 .btn-handbook {
@@ -460,31 +471,8 @@ a.handbook {
   color: #555555;
 }
 
-a.handbook:hover {
-    font-size: 105%;
-}
-
-a.handbook:hover h3{
-    font-size: 170%;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-
-a:hover h3  {
-  text-shadow:  1px 1px 2px rgba(153,153,153, .40);
-  font-size: 140%;
-}
-
-
 .Policies {
   color: #4ac6d6;
-}
-
-.Training {
-  color: #4fc99a;
 }
 
 .Form {
@@ -495,7 +483,7 @@ a:hover h3  {
   color: #ffc035;
 }
 
-.Training {
+.Procedures {
   color: rgb(244, 130, 80);
 }
 
@@ -515,17 +503,6 @@ a:hover h3  {
   line-height: 120px;
 }
 
-a:hover i.fa {
-  text-shadow: 2px 1px 2px  rgba(153,153,153, .25);
-}
-
-a.home-features:hover {
-font-size: 1.1em;
-}
-
-a:hover p  {
-  font-size: 130%;
-}
 
 .ADP {
   color: #AE9C6A;

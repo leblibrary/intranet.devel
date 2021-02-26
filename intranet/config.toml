@@ -46,19 +46,11 @@ paginate = 10
     pre = "_blank"
 
     [[menu.main]]
-    identifier="coverage"
-    name = "COVID-19 Desk Coverage"
-    parent = "schedules"
-    url = "https://docs.google.com/spreadsheets/d/1Kgspg1DVeiWpSfYEE-Sk0KXNu8TtQc2-ILfmLJyiuzs/edit?usp=sharing&urp=gmail_link"
-    weight = 1
-    pre = "_blank"
-
-    [[menu.main]]
     identifier="calendar"
     name = "Google Calendar"
     parent = "schedules"
     url = "https://calendar.google.com"
-    weight = 2
+    weight = 1
     pre = "_blank"
 
   #  [[menu.main]]
