@@ -1,7 +1,11 @@
 /* your styles go here */
 
 /* time off */
-.vacation-text {
+.time-off-text {
+  margin-top: 6rem;
+}
+
+.out-of-library {
   margin-top: 6rem;
 }
 
@@ -173,7 +177,6 @@ input[type=checkbox] {
 
 .social {
   padding-bottom: 15px;
-  padding-right: ;
 }
 
 /*Search bar and button styling*/
@@ -240,7 +243,6 @@ i.fa.fa-search {
   padding-bottom: 10px;
   vertical-align: middle;
   letter-spacing: .08em;
-  padding-top:
 }
 
 .header p {
@@ -317,14 +319,6 @@ h3.desk-headers {
   text-align: center;
   padding-top: 90px;
   margin-top: -90px;
-}
-
-.desk-container {
-
-}
-
-/*accordion*/
-.accordion {
 }
 
 /*jumbotron*/
@@ -518,10 +512,6 @@ a.handbook {
 
 .Slack {
   color: #611f69;
-}
-
-.Library {
-  color:
 }
 
 .fa-thumbs-up {
