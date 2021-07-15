@@ -1,11 +1,84 @@
 /* your styles go here */
 
+/* time off */
+.time-off-text {
+  margin-top: 6rem;
+}
+
+.out-of-library {
+  margin-top: 6rem;
+}
+
+/* navbar */
+
+ul.nav ul.dropdown-menu li a {
+  background-color: inherit !important;
+}
+
+#navigation > ul.navbar-nav > li > a {
+  text-decoration: none;
+}
+
+/*announcement banner*/
+
+.announcement p{
+  font-size: 1.5em;
+  margin-top: 2em;
+  padding: 1.1em;
+  text-align: center;
+  background-color: #3CA3B8;
+  color: white;
+}
+
+.announcement p a[href]{
+  color: white;
+}
+
+/*home page global styles*/
+
+.main-header {
+  padding-top: 90px;
+  margin-top: -90px;
+}
+
+.contact-message {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.contact-message {
+  font-size: 1.1em;
+}
+
+/*form global styles*/
+
+label {
+  font-size: 1.1em;
+}
+
+.bar {
+  padding: 10px;
+}
+
+.section div .section {
+  margin-bottom: 0px;
+}
+
 /* out of library form */
 #out_of_library.container {
   padding-top: 75px;
   padding-bottom: 75px;
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.contact-message {
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 div.form-out-of-library {
@@ -17,10 +90,8 @@ div.form-out-of-library {
 #staff_picks.container {
   display:flex;
   justify-content: center;
-  padding-top: 75px;
-  padding:bottom: 75px;
-  padding-right: 300px;
-  padding-left: 300px;
+  padding-left: 20%;
+  padding-right: 20%
 }
 
 div.form-staff_picks {
@@ -38,25 +109,12 @@ div.form-staff_picks {
   min-height: 230px;
 }
 
-/* report issue buttons*/
-.report_button {
-  margin-top: 1em;
-}
-
-.report_button .row {
-  margin: 0px;
-}
-
-.report_button .btn {
-  width: 100%;
-  padding: .5em;
-}
+/*Report an Issue */
 
 #report_issue {
   display: flex;
   justify-content: center;
   padding-top: 55px;
-  padding-bottom: 95px;
 }
 
 #report_issue .report_forms {
@@ -67,8 +125,62 @@ div.form-staff_picks {
   padding: 15px;
 }
 
+.Building {
+  color: #f7b640;
+}
 
-/*search bar */
+.Safety {
+  color: #d40000;
+}
+
+.Technology {
+  color: #4385F4;
+}
+
+.box-simple p {
+  color: #555555;
+  font-size: 1.2em;
+}
+
+/*Building and Grounds Form*/
+
+.building {
+  padding: 0 20%;
+  }
+
+input[type=checkbox] {
+  margin: 6px 4px;
+  margin-top: 4px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+/*top bar*/
+
+#top {
+  background: #999999;
+  padding: 0px;
+}
+
+#top .social a {
+  color: #ffffff;
+/*padding-right: 35px*/
+}
+
+/*enlarge social icons*/
+.social .fa-2x{
+  font-size: 2.3em;
+  margin: 0px 15px;
+  padding-top: 6px;
+}
+
+.social {
+  padding-bottom: 15px;
+}
+
+/*Search bar and button styling*/
+
 #top .container {
     margin-left: 0;
     margin-right: 0;
@@ -80,39 +192,57 @@ div.form-staff_picks {
     margin-left: auto;
 }
 
-div.input-group .form-control:first-child {
-    border-radius: 15px;
-    background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png") top left no-repeat;
-    height: 30px;
-    padding-left: 30px;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
+.input-group .btn{
+  border-radius:50%;
+  position: absolute;
+  background-color: #7EC28A;
+  color: white;
+  top: 3px;
+  right: 2px;
+  z-index: 100;
+  width:30px;
+  height: 30px;
 }
 
-.searchIcon {
-  padding: .5rem;
+i.fa.fa-search {
+  position: relative;
+  right: 11px;
+  bottom: 2px;
+  display: inline-block;
+  font-size: 1.3em;
+}
+
+.input-group .btn:hover {
+  color: white;
+  background-color: #6aae7a;
+}
+
+.input-group .form-control {
+    border-radius: 20px !important;
+    height: 35px;
+    padding-left: 30px;
+    font-size: 1.2em;
 }
 
 
 /* home banner*/
 .header {
-  padding: 60px;
+  padding: 40px 0;
   text-align: center;
-  background: #6aae7a;
-  color: white;
+  color: #555555;
   font-size: 30px;
 }
 
 .header h1 {
-  color: white;
+  color: #555555;
   display: inline-block;
-  border-bottom: solid 1px #ffffff;
+  border-bottom: solid 1px darkgray;
+  border-bottom: solid 5px #6aae7a;
   line-height: 1.1;
   margin-bottom: 10;
   padding-bottom: 10px;
   vertical-align: middle;
-  letter-spacing: .02em;
-
+  letter-spacing: .08em;
 }
 
 .header p {
@@ -138,20 +268,368 @@ div.input-group .form-control:first-child {
   border-radius: 8px;
 }
 
-/*top bar*/
-#top .social a {
+
+/*sidenav: on-desk*/
+
+#sidenav-desk {
+  font-size: 1.3em;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  margin-bottom: 20px;
+  color: #555555;
+}
+
+.nav-pills li a {
+  color: #555555;
+  font-weight: bold;
+}
+
+.div .text-md-left {
+    text-align: left !important;
+}
+
+/*change sidenav color when active */
+#sidenav-desk .nav-pills li  a.active {
+  background-color: #6aae7a;
   color: #ffffff;
 }
 
-#top {
-  background: #999999;
+.nav-pills li  a.hover {
+  color: #555555;
+  background-color: #acd2b5;
 }
 
-/* drop down menu - hover */
+/*on desk*/
 
-li.dropdown:hover ul {
-  display: block !important;
+
+.main {
+  padding-right: px;
 }
 
-.sidenav {
-  font-size: 14px;
+h3.desk-headers {
+  border-bottom: solid 5px #6aae7a;
+  display: inline-block;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-top: 90px;
+  margin-top: -90px;
+}
+
+/*jumbotron*/
+
+.jumbotron h1 {
+  font-size: 2em;
+}
+
+.jumbotron p {
+  font-size: 1.2em;
+}
+
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron p,
+.jumbotron ul {
+  color: rgb(28, 26, 26);
+}
+
+.jumbotron .btn-primary {
+  background-color: #ffb61e;
+  border: none;
+
+}
+
+.home-jumbotron {
+  text-align: center;
+  height: 150px;
+  width: 700px;
+  background-color: white;
+  padding-top: 0px;
+  color: #555555;
+  border-radius: 8px;
+  margin-bottom: 0px;
+}
+
+.home-jumbotron h1 {
+  color: #555555;
+}
+
+.home-jumbotron p {
+  color: #555555;
+}
+
+/*on desk - allow relative links to jump properly to headers covered by fixed topnav*/
+
+h2 {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+/*top nav */
+
+#topbar {
+  position: fixed;
+}
+
+/*on desk content*/
+
+.main {
+  margin-right: 30px;
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+.div-button.content {
+  margin-top: 15px;
+}
+
+/*footer*/
+
+.footer-info {
+  color: #EDEDED;
+}
+
+.contact i {
+  padding-right: 15px;
+}
+
+.contact i {
+  padding-right: 15px;
+}
+
+.hours {
+  padding-right: 5%;
+}
+
+
+.contact2 {
+  padding-top: 35px;
+  align-items: center;
+}
+
+#copyright {
+  padding: 20px 0;
+}
+
+/* handbook */
+
+section.bar background-white {
+  margin-bottom: 0px;
+}
+
+.thumbnail {
+  text-align: center;
+  width: 25rem;
+  height: 20rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 5rem auto;
+  -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s, height 1s;
+  position: relative;
+  border: none;
+}
+.row.last {
+  padding-bottom: 20px;
+}
+
+.thumbnail p {
+  font-size: 1.15em;
+}
+
+.thumbnail:hover {
+/* width: 25.5rem;
+  height: 20.1rem; */
+  transition: all .2s ease-in-out;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 20%);
+}
+
+.btn-handbook {
+  position: absolute;
+  bottom: 10%;
+  left: 33%;
+  margin: auto;
+}
+
+a.handbook {
+  width: 100%;
+  height: 100%;
+  color: #555555;
+}
+
+.Policies {
+  color: #4ac6d6;
+}
+
+.Form {
+  color: #b1cb2a;
+}
+
+.Slip {
+  color: #ffc035;
+}
+
+.Procedures {
+  color: rgb(244, 130, 80);
+}
+
+.Programs {
+  color: #c7c5e1;
+}
+
+.Social {
+  color: #f48fb1;
+}
+
+/*features*/
+
+.icon {
+  border-radius: none;
+  border: none;
+  line-height: 120px;
+}
+
+
+.ADP {
+  color: #AE9C6A;
+}
+
+.Wekan {
+    color: #4682b4;
+}
+
+.Koha {
+  color: #008080;
+}
+
+.Slack {
+  color: #611f69;
+}
+
+.fa-thumbs-up {
+  color: #f67c6c;
+}
+
+.fa-home {
+  color: #ecb753;
+}
+
+.Schedule {
+  color: #378258;
+}
+
+.Programs{
+  color: #AB5473;
+}
+
+.ILL {
+  color: #BF7EBE;
+}
+
+.Drive {
+  color: #4386F9;
+}
+
+.Email {
+  color: #DE5449;
+}
+
+.Reference {
+  color: #4386F9;
+}
+
+.Telescopes {
+  color: #2727ad;
+}
+
+.State {
+  color: #388258
+}
+
+.Museum {
+  color: #9b0000;
+}
+
+.Meeting {
+  color: #009b9b;
+}
+
+.Kindergarten {
+  color: #4c368c;
+}
+
+.Signup {
+  color: #a2208a;
+}
+
+.Confirm {
+  color: #00853e;
+}
+
+.Request {
+  color: #F08803;
+}
+
+.Google {
+  color: #4286F9;
+}
+
+
+
+/*Readers Advisory*/
+
+
+.Fantastic {
+  color: #16193B;
+}
+
+.Novelist {
+  color: #E98B19;
+}
+
+.Series {
+  color: #87C440;
+}
+
+#docusign {
+  color: #b0c4de;
+}
+
+.Goodreads {
+  color: #583c28;
+}
+
+
+/*emergency*/
+.section-emergency {
+  padding-left: 35px;
+}
+
+.emergency-section {
+    padding-top: 50px;
+}
+
+.fire {
+  padding-bottom: 40px;
+}
+
+.contact-text {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contact-message-area {
+  height: 200px !important;
+}
+
+.form-group {
+  padding-top: 5%;
+}
