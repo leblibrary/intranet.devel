@@ -1,5 +1,5 @@
 weight: 2
-name: "Cool Stuff Collection"
+name: "Museums and Telescopes"
 icon: "fa fa-3x fa-ticket"
-description: "Make and manage Cool Stuff reservations."
-url: "https://www2.museumkey.com/admin/?code=lebanh03766"
+description: "Make and manage reservations."
+url: "https://www2.museumkey.com/admin/reservations/?code=lebanh03766"
