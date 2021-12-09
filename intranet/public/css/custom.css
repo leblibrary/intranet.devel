@@ -1,6 +1,15 @@
 /* your styles go here */
 
 /* time off */
+.vacation {
+  display: flex;
+}
+
+.vacation-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .out-of-library {
   margin-top: 6rem;
