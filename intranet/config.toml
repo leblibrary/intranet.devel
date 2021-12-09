@@ -53,13 +53,13 @@ paginate = 10
     weight = 1
     pre = "_blank"
 
-  #  [[menu.main]]
-  #  identifier="saturday"
-  #  name = "Saturday Schedule"
-  #  parent = "schedules"
-  #  url = "https://docs.google.com/spreadsheets/d/1IVftj3v8XxLvawIywHAp5D8w4rg25-EUpvdGILfHQgA/edit?usp=sharing"
-  #  weight = 3
-  #  pre = "_blank"
+    [[menu.main]]
+    identifier="saturday"
+    name = "Saturday Schedule"
+    parent = "schedules"
+    url = "https://docs.google.com/spreadsheets/d/1CLXJbAzN5rF8UC7Y7Yo2EBFRPnYdG1kir4a7H4n8CTM/edit#gid=0"
+    weight = 3
+    pre = "_blank"
 
 #  [[menu.main]]
 #  identifier="coverage"
@@ -78,7 +78,7 @@ paginate = 10
 
     [[menu.main]]
       identifier="lib_extensions"
-      name = "Library Directory"
+      name = "Staff Directory"
       parent = "contact"
       url = "https://docs.google.com/spreadsheets/d/10tignnh4u8aQZq8wgzmWWZv-q-2S_Sksi78Bt5NP03k/edit?usp=sharing"
       weight = 1
@@ -86,7 +86,7 @@ paginate = 10
 
       [[menu.main]]
       identifier="staff_dir"
-      name = "Internal Staff Directory"
+      name = "Personal Directory"
       parent = "contact"
       url = "https://docs.google.com/spreadsheets/d/1Q1kC27vcRjcOPzp7boGpI5JIO-UdivEiB5V899qzPpk/edit#gid=0"
       weight = 2

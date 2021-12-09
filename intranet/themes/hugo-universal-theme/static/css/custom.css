@@ -1,8 +1,14 @@
 /* your styles go here */
 
 /* time off */
-.time-off-text {
-  margin-top: 6rem;
+.vacation {
+  display: flex;
+}
+
+.vacation-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .out-of-library {
