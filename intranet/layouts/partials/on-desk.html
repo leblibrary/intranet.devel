@@ -15,9 +15,7 @@
         <div class="col-sm-10">
         <div role="container" class="main desk-container">
 
-        {{ partial "jumbotron.html" . }}
-
-          <h3 class="desk-headers" id="tools">Desk Tools</h3>
+            <h3 class="desk-headers" id="tools">Desk Tools</h3>
 
           {{ partial "deskfeatures.html" . }}
 
@@ -28,6 +26,10 @@
           <h3 class="desk-headers" id="reservations">Reservations</h3>
 
           {{ partial "reservationfeatures.html" . }}
+
+          <h3 class="desk-headers" id="ill">Interlibrary Loan</h3>
+
+          {{ partial "illfeatures.html" . }}
 
           <h3 class="desk-headers" id="programs">Programs</h3>
 

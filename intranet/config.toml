@@ -271,6 +271,9 @@ paginate = 10
   [params.programspagefeatures]
       enable = true
 
+  [params.illfeatures]
+      enable = true
+
 [params.testimonials]
     enable = false
     # All testimonials are defined in their own files. You can find example items

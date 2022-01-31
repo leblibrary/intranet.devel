@@ -1,0 +1,5 @@
+weight: 1
+name: "Sign into Google"
+icon: "fa fa-3x fa-google"
+description: "Access Google password manager."
+url: "https://accounts.google.com/signin/"
