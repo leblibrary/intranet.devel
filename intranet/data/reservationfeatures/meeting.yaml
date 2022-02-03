@@ -1,5 +1,5 @@
 weight: 1
 name: "Meeting Rooms"
 icon: "fa fas fa-3x fa-users"
-description: "Username: staff, password: Lebanon03766."
+description: "Create and manage reservations."
 url: "https://leblibrary.libcal.com/admin/spaces/availability?lid=13601"
