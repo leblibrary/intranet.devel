@@ -108,11 +108,20 @@ paginate = 10
       weight = 4
 
       [[menu.main]]
+      identifier="emergency"
+      name = "Emergency"
+      parent = "contact"
+      url = "https://drive.google.com/file/d/18CYHhBu3fTctDD4mEqqUOz09MPQLny7X/view?usp=sharing"
+      weight = 5
+      pre = "_blank"
+
+
+      [[menu.main]]
       identifier="contact-us"
       name = "Contact Us"
       parent = "contact"
       url = "/contact-form.html"
-      weight = 5
+      weight = 6
 
 
 # Top bar social links menu
