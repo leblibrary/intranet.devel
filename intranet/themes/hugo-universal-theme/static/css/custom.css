@@ -1,8 +1,23 @@
 /* your styles go here */
 
+/*reimbursement*/
+.row-img {
+  display: flex;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+}
+
+.row-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
 /* time off */
 .vacation {
   display: flex;
+  margin-top: 6rem;
 }
 
 .vacation-section {
