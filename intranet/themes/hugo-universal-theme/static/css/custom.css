@@ -11,6 +11,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mt-6 {
   margin-top: 6rem;
 }
 
