@@ -5,12 +5,17 @@
   display: flex;
   margin-bottom: 6rem;
   margin-top: 6rem;
+  flex-wrap: wrap;
 }
 
 .row-section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mt-6 {
+  margin-top: 6rem;
 }
 
 /* time off */
