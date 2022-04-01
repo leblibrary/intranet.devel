@@ -315,3 +315,6 @@ paginate = 10
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
+
+[markup.goldmark.renderer]
+  unsafe = true
