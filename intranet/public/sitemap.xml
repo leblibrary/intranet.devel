@@ -1,88 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://intranet.leblibrary.com/programs-page.html</loc>
     <lastmod>2020-02-19T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/search.html</loc>
     <lastmod>2019-12-04T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/contact-form.html</loc>
     <lastmod>2019-08-19T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/emergency.html</loc>
     <lastmod>2019-08-19T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/out_of_library.html</loc>
     <lastmod>2019-08-19T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/building_issues.html</loc>
     <lastmod>2019-08-19T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/time_off_form.html</loc>
     <lastmod>2019-08-19T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/safety.html</loc>
     <lastmod>2019-08-19T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/staff_picks.html</loc>
     <lastmod>2019-08-19T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/on-desk.html</loc>
     <lastmod>2019-06-19T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/handbook.html</loc>
     <lastmod>2019-06-19T15:23:14-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/blog.html</loc>
     <lastmod>2019-06-11T14:25:39-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/</loc>
     <lastmod>2019-06-11T14:25:39-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/blog/2019/06/11/newest-posts.html</loc>
     <lastmod>2019-06-11T14:25:39-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/contact.html</loc>
     <lastmod>2019-06-11T14:18:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/categories.html</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://intranet.leblibrary.com/tags.html</loc>
   </url>
-  
 </urlset>
