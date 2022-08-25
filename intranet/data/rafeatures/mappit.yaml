@@ -1,0 +1,5 @@
+weight: 5
+name: "Mappit"
+icon: "fa fas fa-3x fa-map"
+description: "Find books set in specific geographic locations."
+url: "https://www.mappit.net/bookmap/places/3777/hanover-nh-us/"
