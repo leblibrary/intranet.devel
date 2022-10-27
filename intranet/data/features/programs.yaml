@@ -1,5 +1,5 @@
-weight: 6
+weight: 3
 name: "Programs"
 icon: "fa fa-3x fa-user-plus"
-description: "Program information."
-url: "http://intranet.leblibrary.com/programs-page.html"
+description: "Everything to do with programs."
+url: "/programs-page.html"

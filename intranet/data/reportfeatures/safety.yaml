@@ -1,5 +1,5 @@
 weight: 3
 name: "Safety"
 icon: "fa fa-3x fa-plus-square"
-description: "Accidents while working."
+description: "Accidents and patron incidents."
 url: "/safety.html"
