@@ -1,5 +1,11 @@
 /* your styles go here */
 
+/* pic list */
+.fa-users {
+  color: red;
+}
+
+
 /*reimbursement*/
 .row-img {
   display: flex;
