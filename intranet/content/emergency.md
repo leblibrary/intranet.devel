@@ -12,7 +12,7 @@ id: "emergency"
 2. [Patron Incidents](#patron-incidents)
 3. [Accidents](#accidents)
 4. [Building](#building)
-5. [Other Resources](#other-resources)
+5. [Tech](#tech)
 
 
 
@@ -27,8 +27,7 @@ id: "emergency"
     <li>This will notify the police, and they will arrive within minutes.</li>
   </ul>
 </br>
-<p><strong>Call 911 or dispatch at
-### Immediate Safety {safety .desk-headers .emergency-headers} 603-448-1212.</strong></p>
+<p><strong>Call 911 or dispatch at 603-448-1212.</strong></p>
 <ul>
   <li>Call from Sean's office or the staff room if you would like privacy from patrons.</li>
 </ul>
@@ -41,6 +40,14 @@ Afterwards:
 2. Notify allstaff channel on [Slack](https://leblibrary.slack.com)
 3. Fill [Patron Incident Report](https://docs.google.com/forms/d/e/1FAIpQLSd4i5y2WflNuTr1E1JO8yw3nqiDTwlWpl-Nvs1tFvqhuioY5g/viewform) (if applicable)
 4. Fill [Accident Report](#accidents) (if applicable)
+
+&nbsp;  
+
+Relevent Resources:
+
+- [Safety Policy and Procedures](https://docs.google.com/document/d/1clEASM-IgTrHe0799uz_LCZmndr8zjEmfekbTIawL18/edit#heading=h.djgwobkaiukv)
+
+- [Person in Charge List](https://docs.google.com/document/d/1bs6kiP7Ms_fdUwBUu0WsmnNuK7WerXcN4PZ6H5kAGk4/edit)
 
 </div>
 </div>
@@ -130,18 +137,15 @@ If an incident or injury happens on library grounds (including outdoor property)
 </div>
 </div>
 
-
-
 <div class="emergency-section">
 
-  ### Other Resources {#other-resources .desk-headers}
+  ### Tech {#building .desk-headers}
 
   <div class="section-emergency">
 
-[Safety Policy and Procedures](https://docs.google.com/document/d/1clEASM-IgTrHe0799uz_LCZmndr8zjEmfekbTIawL18/edit#heading=h.djgwobkaiukv)
+[Report a tech issue](https://helpdesk.leblibrary.com/)
 
-[Person in Charge List](https://docs.google.com/document/d/1bs6kiP7Ms_fdUwBUu0WsmnNuK7WerXcN4PZ6H5kAGk4/edit)
-
+Note: Click the Google button to log in using your work email.
 
 </div>
 </div>
