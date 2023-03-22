@@ -1,60 +1,134 @@
 ---
-title: "Emergency"
+title: "Issues and Emergency"
 date: 2019-08-19T15:23:14-04:00
 id: "emergency"
 ---
 
 <div class="container">
 
-<p class="start">After taking care of the issue, please notify the Library Director and Deputy Director, and send a message to the allstaff channel on Slack.</p>
+
 
 <div class="emergency-section">
 <h3 class="desk-headers emergency-headers">Immediate Safety</h3>
 <div class="section-emergency">
 <p><strong>Emergency button at desk</strong></p>
 
-  <ul>
+  <ul class="">
     <li>This will notify the police, and they will arrive within minutes.</li>
   </ul>
 </br>
 <p><strong>Call 911 or dispatch at 603-448-1212.</strong></p>
 <ul>
-  <li>Call from Sean or Amy's office if you would like privacy from patrons.</li>
+  <li>Call from Sean's office or the staff room if you would like privacy from patrons.</li>
 </ul>
+
+  &nbsp;  
+
+Afterwards:
+
+1. Notify Sean and Amy by [Slack](https://leblibrary.slack.com) or phone
+2. Notify allstaff channel on [Slack](https://leblibrary.slack.com)
+3. Fill [Patron Incident Report](https://docs.google.com/forms/d/e/1FAIpQLSd4i5y2WflNuTr1E1JO8yw3nqiDTwlWpl-Nvs1tFvqhuioY5g/viewform) (if applicable)
+4. Fill [Accident Report](#accidents)
+
+</div>
+</div>
+
+<div class="emergency-section">
+<h3 id="patron-incidents" class="desk-headers emergency-headers">Patron Incidents</h3>
+<div class="section-emergency">
+
+<strong>If a patron is experiencing a mental health crisis, then please call [West Central Behavioral Health](https://www.wcbh.org/contact/) . </strong>
+
+  &nbsp;  
+
+
+
+
+Please fill out an incident report when one or more of the following occurs in the library: 
+
+* Vandalism
+* Harrassment
+* Threat
+* Hate speech
+* Violence
+* Other similar types of incidents
+
+This helps us keep track of these situations, who was involved, and can help us take action. 
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSd4i5y2WflNuTr1E1JO8yw3nqiDTwlWpl-Nvs1tFvqhuioY5g/viewform" target="_blank"><button class="btn btn-template-main">Incident Report</button></a> <a href="https://docs.google.com/spreadsheets/d/11PhQQT09YVyj1cbKko3-6rqBhJhujvS94zEIv5DyQrs/edit?usp=sharing" target="_blank"><button class="btn btn-template-main">Incident Log</button></a>  
+ &nbsp;  
+
 </div>
 </div>
 
 
 <div class="emergency-section">
-<h3 class="desk-headers emergency-headers">Heating and Cooling</h3>
+<h3 id="accidents" class="desk-headers emergency-headers">Accidents</h3>
+
 <div class="section-emergency">
-<p>Call Honeywell at 800-526-7878.</p>
+If an incident or injury happens on library grounds (including outdoor property), then please complete the applicable forms below.
+ 
+ &nbsp;  
+
+ #### The Public
+ 
+ **Did a member of the public experience an injury or accident while on library premises?**
+ 
+ The public may refuse to fill out the form since they are not legally required to complete it. 
+ 
+ <a href="/docs/2021-Non-Employee Accident.pdf" download="2021-Non-Employee Accident.pdf" class=""><button class="btn btn-template-main">Patron Form</button></a>
+ <a href="/docs/Supervisors Incident Report_Form Fill.pdf" download="Supervisors Incident Report_Form Fill.pdf" class=""><button class="btn btn-template-main">Supervisor Form</button></a>  
+  &nbsp;  
+ 
+  #### Staff
+ 
+ **Did a staff member experience an injury or accident while on library premises?**
+ 
+ <a href="/docs/Employee Notice of Incident 1-2009.pdf" download="Employee Notice of Incident 1-2009.pdf" class=""><button class="btn btn-template-main">Staff Form</button></a>
+ <a href="/docs/Supervisors Incident Report_Form Fill.pdf" download="Supervisors Incident Report_Form Fill.pdf" class=""><button class="btn btn-template-main">Supervisor Form</button></a>  
+  &nbsp;  
+
 </div>
 </div>
+
+
+<div class="emergency-section">
+<h3 class="desk-headers emergency-headers">Building</h3>
+<div class="section-emergency">
+
+[Report a building issue](/building_issues.html)
+
+
+[Problem with Heating, Cooling, Electricity, HVAC](https://drive.google.com/file/d/18CYHhBu3fTctDD4mEqqUOz09MPQLny7X/view)
+
+<strong>Plumbing</strong>:
+- Call Twin State Plumbing at 802-291-4027.</p>
+
+
+<strong>Snow Removal</strong>:
+- <strong>Kilton Library:</strong> Call Hess Property Management at (603) 448-5253 for sidewalks and parking lot.
+
+- <strong>Lebanon Library:</strong> [Public Works](https://lebanonnh.gov/244/Public-Works) and custodians/staff take care of the sidewalks.
+
+
+</div>
+</div>
+
 
 
 
 <div class="emergency-section">
-<h3 class="desk-headers emergency-headers">Snow</h3>
+<h3 class="desk-headers emergency-headers">Other Resources</h3>
 <div class="section-emergency">
-<p><strong>Kilton Library:</strong> Call Hess Property Management at (603) 448-5253 for sidewalks and parking lot.</p>
 
-<p><strong>Lebanon Library:</strong> Public Works and custodians/staff take care of the sidewalks.</p>
+[Safety Policy and Procedures](https://docs.google.com/document/d/1clEASM-IgTrHe0799uz_LCZmndr8zjEmfekbTIawL18/edit#heading=h.djgwobkaiukv)
+
+[Person in Charge List](https://docs.google.com/document/d/1bs6kiP7Ms_fdUwBUu0WsmnNuK7WerXcN4PZ6H5kAGk4/edit)
+
+
 </div>
 </div>
 
-
-<div class="emergency-section">
-<h3 class="desk-headers emergency-headers">Plumbing</h3>
-<div class="section-emergency">
-<p>Call Twin State Plumbing at 802-291-4027.</p>
-</div>
-
-
-<div class="emergency-section fire">
-<h3 class="desk-headers emergency-headers">Fire</h3>
-<div class="section-emergency">
-<p>Call the fire department at 911.</p>
-</div>
-</div>
+  &nbsp;  
 </div>
