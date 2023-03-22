@@ -7,9 +7,19 @@ id: "emergency"
 <div class="container">
 
 
+## Table of Contents
+1. [Immediate Safety](#immediate-safety)
+2. [Patron Incidents](#patron-incidents)
+3. [Accidents](#accidents)
+4. [Building](#building)
+5. [Other Resources](#other-resources)
+
+
 
 <div class="emergency-section">
-<h3 class="desk-headers emergency-headers">Immediate Safety</h3>
+
+  ### Immediate Safety {#immediate-safety .desk-headers}
+
 <div class="section-emergency">
 <p><strong>Emergency button at desk</strong></p>
 
@@ -17,7 +27,8 @@ id: "emergency"
     <li>This will notify the police, and they will arrive within minutes.</li>
   </ul>
 </br>
-<p><strong>Call 911 or dispatch at 603-448-1212.</strong></p>
+<p><strong>Call 911 or dispatch at
+### Immediate Safety {safety .desk-headers .emergency-headers} 603-448-1212.</strong></p>
 <ul>
   <li>Call from Sean's office or the staff room if you would like privacy from patrons.</li>
 </ul>
@@ -29,21 +40,21 @@ Afterwards:
 1. Notify Sean and Amy by [Slack](https://leblibrary.slack.com) or phone
 2. Notify allstaff channel on [Slack](https://leblibrary.slack.com)
 3. Fill [Patron Incident Report](https://docs.google.com/forms/d/e/1FAIpQLSd4i5y2WflNuTr1E1JO8yw3nqiDTwlWpl-Nvs1tFvqhuioY5g/viewform) (if applicable)
-4. Fill [Accident Report](#accidents)
+4. Fill [Accident Report](#accidents) (if applicable)
 
 </div>
 </div>
+
 
 <div class="emergency-section">
-<h3 id="patron-incidents" class="desk-headers emergency-headers">Patron Incidents</h3>
+
+  ### Patron Incidents {#patron-incidents .desk-headers}
+
 <div class="section-emergency">
 
-<strong>If a patron is experiencing a mental health crisis, then please call [West Central Behavioral Health](https://www.wcbh.org/contact/) . </strong>
+<strong>If a patron is experiencing a mental health crisis, then please call West Central Behavioral Health at 1-833-710-6477. </strong>
 
   &nbsp;  
-
-
-
 
 Please fill out an incident report when one or more of the following occurs in the library: 
 
@@ -64,7 +75,8 @@ This helps us keep track of these situations, who was involved, and can help us 
 
 
 <div class="emergency-section">
-<h3 id="accidents" class="desk-headers emergency-headers">Accidents</h3>
+
+### Accidents {#accidents .desk-headers}
 
 <div class="section-emergency">
 If an incident or injury happens on library grounds (including outdoor property), then please complete the applicable forms below.
@@ -93,9 +105,12 @@ If an incident or injury happens on library grounds (including outdoor property)
 </div>
 
 
+
 <div class="emergency-section">
-<h3 class="desk-headers emergency-headers">Building</h3>
-<div class="section-emergency">
+
+  ### Building {#building .desk-headers}
+
+  <div class="section-emergency">
 
 [Report a building issue](/building_issues.html)
 
@@ -117,10 +132,11 @@ If an incident or injury happens on library grounds (including outdoor property)
 
 
 
-
 <div class="emergency-section">
-<h3 class="desk-headers emergency-headers">Other Resources</h3>
-<div class="section-emergency">
+
+  ### Other Resources {#other-resources .desk-headers}
+
+  <div class="section-emergency">
 
 [Safety Policy and Procedures](https://docs.google.com/document/d/1clEASM-IgTrHe0799uz_LCZmndr8zjEmfekbTIawL18/edit#heading=h.djgwobkaiukv)
 

@@ -346,8 +346,8 @@ h3.desk-headers {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   text-align: center;
-  padding-top: 90px;
-  margin-top: -90px;
+  /* padding-top: 90px;
+  margin-top: -90px; */
 }
 
 /*jumbotron*/
