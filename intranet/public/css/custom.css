@@ -1,4 +1,11 @@
-/* your styles go here - this is the REAL CSS! */
+/* your styles go here */
+
+/* drag queen storytime resource */
+.drag-queen {
+  font-size: 20px !important;
+  color: red;
+  margin: 5rem;
+}
 
 /* pic list */
 .fa-users {
