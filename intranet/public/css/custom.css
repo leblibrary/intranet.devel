@@ -3,8 +3,9 @@
 /* drag queen storytime resource */
 .drag-queen {
   font-size: 20px !important;
-  color: red;
-  margin: 5rem;
+  padding: 5rem;
+  border-left: 1rem solid #F7BC33;
+  background-color: #F7F7F7;
 }
 
 /* pic list */
