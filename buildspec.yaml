@@ -23,6 +23,6 @@ phases:
       - cd intranet
       - hugo
       - cd public && aws s3 sync . s3://${s3_output} --delete --acl public-read
+      - aws cloudfront create-invalidation --distribution-id ${CLOUDDIST} --paths /*
     finally:
       - echo "Script finished running"
-      - echo $CLOUDDIST
