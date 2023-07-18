@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    s3_output: "leblibrary-intranet"
+    s3_output: "staff-intranet-leblibrary"
     hugo_version: "0.55.6"
 
 phases:
