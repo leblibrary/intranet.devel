@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    s3_output: "leblibrary-intranet"
+    s3_output: "staff-intranet-leblibrary"
     hugo_version: "0.55.6"
 
 phases:
@@ -22,6 +22,7 @@ phases:
     commands:
       - cd intranet
       - hugo
-      - cd public && aws s3 sync . s3://${s3_output} --delete --acl public-read
+      - cd public && aws s3 sync . s3://${s3_output} --delete
+      - aws cloudfront create-invalidation --distribution-id ${CLOUDDIST} --paths "/*"
     finally:
       - echo "Script finished running"
