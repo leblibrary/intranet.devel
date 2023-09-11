@@ -30,9 +30,8 @@ id: "emergency"
 <p><strong>Call 911 or dispatch at 603-448-1212.</strong></p>
 <ul>
   <li>Call from Sean's office or the staff room if you would like privacy from patrons.</li>
-</ul>
-
-  &nbsp;  
+</ul>  
+  
 
 Afterwards:
 
