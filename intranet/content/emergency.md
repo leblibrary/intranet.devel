@@ -133,7 +133,7 @@ If an incident or injury happens on library grounds (including outdoor property)
 - <strong>Lebanon Library:</strong> [Public Works](https://lebanonnh.gov/244/Public-Works) and custodians/staff take care of the sidewalks.
 
 <strong>Emergency Fire Shutters</strong>
-- <strong>Raynor Door</strong>: 603-628-3667
+- Call Raynor Door at 603-628-3667
 </div>
 </div>
 
