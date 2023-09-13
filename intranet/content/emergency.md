@@ -123,16 +123,17 @@ If an incident or injury happens on library grounds (including outdoor property)
 
 [Problem with Heating, Cooling, Electricity, HVAC](https://drive.google.com/file/d/13KPxCGGU-uVKeVT-o-7DQFOhtNa_m90e/view?usp=drive_link)
 
-<strong>Plumbing</strong>:
+<strong>Plumbing</strong>
 - Call Twin State Plumbing at 802-291-4027.</p>
 
 
-<strong>Snow Removal</strong>:
+<strong>Snow Removal</strong>
 - <strong>Kilton Library:</strong> Call Hess Property Management at (603) 448-5253 for sidewalks and parking lot.
 
 - <strong>Lebanon Library:</strong> [Public Works](https://lebanonnh.gov/244/Public-Works) and custodians/staff take care of the sidewalks.
 
-
+<strong>Emergency Fire Shutters</strong>
+- <strong>Raynor Door</strong>: 603-628-3667
 </div>
 </div>
 
