@@ -13,25 +13,65 @@
                   <h3>Out of Library</h3>
                 </div>
 
-                <div id="contact-message" class ="contact-message">Can't make it to work because or sickness or an emergency? Let us know!</div>
+                <div id="contact-message" class ="contact-message">Can't make it to work? Let us know!</div>
 
                 <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://usebasin.com/f/01090760549e">
                     <div class="row form-out-of-library">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <div class="form-group">
-                              <label for="name">{{ i18n "contactName" }}</label>
+                              <label for="name"><strong>{{ i18n "contactName" }}</strong></label>
                                 <input type="text" class="form-control" name="name" id="name" required>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label for="email">{{ i18n "contactMail" }}</label>
-                                <input type="text" class="form-control" name="email" id="email" required>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                              <label for="message">Message (Which shifts need coverage, programs to cover, etc.)</label>
+                                <label for="email"><strong>{{ i18n "contactMail" }}</strong></label>
+                                <input type="text" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+<!------------------------------------ Reason --------------------------------->
+                        <div class="col-sm-12">
+                        <label for="reason"><strong>Reason</strong></label>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="Sick" value="sick">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                Sick
+                                </label>
+                            </div>
+                          </div>
+                          <div class="col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                Schedule Change
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Vacation
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Other
+                                </label>
+                            </div>
+                        </div>
+                    
+                    
+<!------------------------------------ Message --------------------------------->
+
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="message"><strong>Message </strong>(Shifts or programs to cover, dates, times, etc.)</label>
                                 <textarea id="message" class="form-control" name="message" required></textarea>
                             </div>
                         </div>
