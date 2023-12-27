@@ -3,15 +3,15 @@ version: 0.2
 env:
   variables:
     s3_output: "staff-intranet-leblibrary"
-    hugo_version: "0.55.6"
+    hugo_version: "0.111.3"
 
 phases:
   install:
     runtime-versions:
-      golang: 1.12
+      golang: 1.13
     commands:
-      - wget "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.deb"
-      - dpkg -i hugo_${hugo_version}_Linux-64bit.deb
+      - wget "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_extended_${hugo_version}_linux-amd64.deb"
+      - dpkg -i hugo_extended_${hugo_version}_linux-amd64.deb
     finally:
       - hugo version
   pre_build:
