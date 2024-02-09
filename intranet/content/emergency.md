@@ -120,8 +120,8 @@ If an incident or injury happens on library grounds (including outdoor property)
 
 [Report a building issue](/building_issues.html)
 
+<a href="/docs/EMERGENCY Contact Info - Energy & HVAC.pdf" download="EMERGENCY Contact Info - Energy & HVAC.pdf">Heating, Cooling, Electricity, and HVAC</a>
 
-[Problem with Heating, Cooling, Electricity, HVAC](https://drive.google.com/file/d/13KPxCGGU-uVKeVT-o-7DQFOhtNa_m90e/view?usp=drive_link)
 
 <strong>Plumbing</strong>
 - Call Twin State Plumbing at 802-291-4027.</p>
