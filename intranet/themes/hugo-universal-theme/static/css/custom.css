@@ -1,5 +1,21 @@
 /* your styles go here */
 
+.pb-5 {
+  padding-bottom: 5%;
+}
+.checklist label {
+  display: inline;
+}
+.d-inline {
+  display: inline !important;
+}
+.checklist {
+  font-size: 1.3em;
+}
+
+.navbar-brand > img {
+  height: 122%;
+}
 /* drag queen storytime resource */
 .drag-queen {
   font-size: 20px !important;
@@ -402,13 +418,13 @@ h3.desk-headers {
   color: #555555;
 }
 
-/*on desk - allow relative links to jump properly to headers covered by fixed topnav*/
+/*on desk - allow relative links to jump properly to headers covered by fixed topnav
 
 h2 {
   padding-top: 80px;
   margin-top: -80px;
 }
-
+*/
 /*top nav */
 
 #topbar {
