@@ -1,4 +1,11 @@
 /* your styles go here */
+
+.pb-5 {
+  padding-bottom: 5%;
+}
+.checklist label {
+  display: inline;
+}
 .d-inline {
   display: inline !important;
 }

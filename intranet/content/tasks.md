@@ -12,7 +12,7 @@ id: "tasks"
     <input type="checkbox" id="remove-holds" name="remove-holds" value="remove-holds">
     <label for="remove-holds"> Remove old holds from Contactless Pickup</label><br>
     <input type="checkbox" id="emails" name="emails" value="emails">
-    <label for="emails"><a href="https://groups.google.com/a/leblibrary.com/g/reference" target="_blank"> Check reference emails</a></label><br>
+    <label for="emails"><a href="https://groups.google.com/a/leblibrary.com/g/reference" target="_blank"> Check reference emails (permanent staff only)</a></label><br>
     <input type="checkbox" id="shelve" name="shelve" value="shelve">
     <label for="shelve"> Shelve books on book carts (includes Children's Room and Teen Room)</label><br>
     <input type="checkbox" id="book-drop" name="book-drop" value="book-drop">
