@@ -271,7 +271,7 @@ paginate = 10
   [params.programspagefeatures]
       enable = true
 
-  [params.illfeatures]
+  [params.requestsfeatures]
       enable = true
 
 [params.testimonials]
