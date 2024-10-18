@@ -34,7 +34,7 @@ id: "tasks"
     <input type="checkbox" id="transfers" name="transfers" value="transfers">
     <label for="transfers"> <a href="https://koha.leblibrary.com/cgi-bin/koha/circ/transferstoreceive.pl" target="_blank">Look for overdue transfers</a>. Check in any item that has been on the list for longer than 7 days, and mark it as missing in Koha</label><br>
    <div class="test"><input type="checkbox" id="missing-holds" name="missing-holds" value="missing-holds">
-   <label for="missing-holds"> Search for <a href="https://koha.leblibrary.com/cgi-bin/koha/reports/guided_reports.pl?reports=612&phase=Run%20this%20report" target=
+   <label for="missing-holds"> Search for <a href="https://koha.leblibrary.com/cgi-bin/koha/reports/guided_reports.pl?id=612&op=run" target=
     "_blank">missing items with holds</a> at both libraries. If there is only one copy and it's missing, then remove the hold and request an ILL.</label></div>
 </div>
 
