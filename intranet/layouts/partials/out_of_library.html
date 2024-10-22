@@ -18,6 +18,9 @@
                 <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="https://usebasin.com/f/01090760549e">
                     <div class="row form-out-of-library">
                         <div class="col-sm-12">
+                          <div class="form-group">
+                              <input type="hidden" class="form-control" name="Out of Library" id="out_of_library" value="New Out Of Library Submission">
+                          </div>
                             <div class="form-group">
                               <label for="name"><strong>{{ i18n "contactName" }}</strong></label>
                                 <input type="text" class="form-control" name="name" id="name" required>
