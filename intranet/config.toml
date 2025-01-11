@@ -107,12 +107,19 @@ paginate = 10
       url = "/emergency.html"
       weight = 4
 
+    [[menu.main]]
+    identifier="facilities"
+    name = "Facilities Emergency Contacts"
+    parent = "contact"
+    url = "/docs/facilities-emergency-contacts.pdf"
+    weight = 5
+
       [[menu.main]]
       identifier="contact-us"
       name = "Contact Us"
       parent = "contact"
       url = "/contact-form.html"
-      weight = 5
+      weight = 6
 
 
 # Top bar social links menu
