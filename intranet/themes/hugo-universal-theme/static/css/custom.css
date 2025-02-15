@@ -380,6 +380,10 @@ h3.desk-headers {
   margin-top: -90px; */
 }
 
+.logo {
+  width: 3em;
+}
+
 /*jumbotron*/
 
 .jumbotron h1 {

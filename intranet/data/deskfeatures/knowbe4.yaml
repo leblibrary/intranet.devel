@@ -1,5 +1,6 @@
-weight: 7
+weight: 8
 name: "KnowBe4"
 icon: "fa-solid fa-3x fa-chalkboard-user"
 description: "Computer Security Training"
 url: "https://training.knowbe4.com/ui/users/login"
+logo: "knowbe4_logo.svg"
