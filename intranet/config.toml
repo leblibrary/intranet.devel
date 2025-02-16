@@ -1,6 +1,6 @@
 baseurl = "https://intranet.leblibrary.com/"
 uglyurls = true
-title = "Intranet"
+title = "Lebanon Libraries Intranet"
 theme = "hugo-universal-theme"
 themesDir = "themes"
 languageCode = "en-us"
