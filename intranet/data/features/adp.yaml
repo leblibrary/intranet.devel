@@ -1,6 +1,6 @@
 weight: 1
 name: "ADP"
 icon: "fa fa-3x fa-clock-o"
-description: "Record timesheet and request vacation."
+description: "Record timesheet and request vacation"
 url: "https://adpeet2.adp.com/102tc7p/logon/logonWFC.html"
 logo: "adp_logo.svg"

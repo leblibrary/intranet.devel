@@ -1,6 +1,6 @@
 weight: 6
 name: "Google Calendar"
 icon: "fa fas fa-3x fa-calendar"
-description: "See schedules and employee locations."
+description: "See schedules and employee locations"
 url: "https://calendar.google.com"
 logo: "google_calendar_logo.svg"

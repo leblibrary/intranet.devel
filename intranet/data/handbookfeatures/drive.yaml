@@ -1,6 +1,6 @@
 weight: 1
 name: "Google Drive"
 icon: "fa fas fa-3x fa-file-text"
-description: "Contains all departmental, administrative, and procedural materials."
+description: "Contains all departmental, administrative, and procedural materials"
 url: "https://drive.google.com"
 logo: "google_drive_logo.svg"

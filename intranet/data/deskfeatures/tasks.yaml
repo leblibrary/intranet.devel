@@ -1,5 +1,5 @@
 weight: 5
 name: "Tasks"
 icon: "fa fas fa-3x fa-tasks"
-description: "Keep track of tasks and projects."
+description: "Keep track of tasks and projects"
 url: "/tasks.html"

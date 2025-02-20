@@ -1,5 +1,5 @@
 weight: 2
 name: "NH State Parks"
 icon: "fa fas fa-3x fa-tree"
-description: "Login info is in Bitwarden."
+description: "Login info is in Bitwarden"
 url: "https://newhampshirestateparks.reserveamerica.com/tourDetails.do?contractCode=NH&parkId=270101&tourId=46129&cat=1"

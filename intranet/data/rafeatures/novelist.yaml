@@ -1,5 +1,5 @@
 weight: 1
 name: "Novelist"
 icon: "fa fas fa-3x fa-book"
-description: "Best resource for recommending items to patrons."
+description: "Best resource for recommending items to patrons"
 url: "http://search.ebscohost.com/login.aspx?authtype=ip,cpid&custid=lebpub&profile=NOVPLUS"

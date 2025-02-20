@@ -2,5 +2,5 @@ weight: 1
 name: "Request an Item"
 identifier: colldev
 icon: "fa fa-3x fa-shopping-cart"
-description: "If patron wants something not in our catalog, then fill out this form."
+description: "If patron wants something not in our catalog, then fill out this form"
 url: "https://leblibrary.com/form/make-a-request"

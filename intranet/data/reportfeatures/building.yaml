@@ -1,5 +1,5 @@
 weight: 2
 name: "Building"
 icon: "fa fa-3x fa-building"
-description: "Buildings and grounds issues."
+description: "Buildings and grounds issues"
 url: "/building_issues.html"

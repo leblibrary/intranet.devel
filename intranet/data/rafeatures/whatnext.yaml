@@ -1,5 +1,5 @@
 weight: 4
 name: "What's Next...Books in Series"
 icon: "fa fas fa-3x fa-chevron-right"
-description: "Find the next book in a series."
+description: "Find the next book in a series"
 url: "http://ww2.kdl.org/libcat/whatsnext.asp"

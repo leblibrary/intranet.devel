@@ -1,5 +1,5 @@
 weight: 2
 name: "Goodreads"
 icon: "fa fas fa-3x fa-book"
-description: "Help patrons find new books and keep track of previous ones."
+description: "Help patrons find new books and keep track of previous ones"
 url: "https://www.goodreads.com/"

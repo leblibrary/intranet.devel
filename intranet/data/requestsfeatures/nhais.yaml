@@ -1,5 +1,5 @@
 weight: 2
 name: "NHAIS"
 icon: "fa fas fa-3x fa-circle"
-description: "Check on patron's ILL request."
+description: "Check on patron's ILL request"
 url: "https://nhais.agshareit.com/home?cid=nhais&lid=nhais"
