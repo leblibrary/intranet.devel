@@ -13,7 +13,11 @@
 				<div class="col-md-4">
                     <a href="{{ .url }}" target="_blank"> <div class="box-simple">
                         <div class="icon programfeatures">
-                            <i class="{{ .icon }}  {{ .name }}"></i>
+                            {{ if .logo }}
+                            <img src="img/logos/{{ .logo }}" class="logo" alt="{{.name}} logo">
+                            {{ else }}
+                                 <i class="{{ .icon }}  {{ .name }}"></i>
+                             {{ end }}
                         </div>
                         <h3>{{ $element.name }}</h3>
                         <p>{{ $element.description | markdownify }}</p>
