@@ -383,6 +383,9 @@ h3.desk-headers {
 .logo {
   width: 3em;
   margin-bottom: 2em;
+  color: #555;
+  line-height: 1.25;
+
 }
 
 /*jumbotron*/
