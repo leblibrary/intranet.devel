@@ -382,11 +382,12 @@ h3.desk-headers {
 
 .logo {
   width: 3em;
+  margin-bottom: 2em;
 }
 
 /*jumbotron*/
 
-.jumbotron h1 {
+.jumbotron h1 {i
   font-size: 2em;
 }
 
