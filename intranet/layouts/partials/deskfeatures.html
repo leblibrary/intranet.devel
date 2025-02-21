@@ -13,12 +13,7 @@
 				<div class="col-md-4">
                     <a href="{{ .url }}" target="_blank"> <div class="box-simple">
                         <div class="icon deskfeatures">
-                           {{ if .logo }}
-                           <img src="img/logos/{{ .logo }}" class="logo" alt="{{.name}} logo">
-                           {{ else }}
-                                <i class="{{ .icon }}  {{ .name }}"></i>
-                            {{ end }}
-                            
+                           {{partial "logo-or-icon.html" .}}
                         </div>
                         <h3>{{ .name }}</h3>
                         <p>{{ .description | markdownify }}</p>

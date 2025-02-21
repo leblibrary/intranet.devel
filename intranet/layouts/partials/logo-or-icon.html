@@ -1,0 +1,5 @@
+{{ if .logo }}
+    <img src="img/logos/{{ .logo }}" class="logo" alt="{{.name}} logo">
+{{ else }}
+    <i class="{{ .icon }}  {{ .name }}"></i>
+{{ end }}
