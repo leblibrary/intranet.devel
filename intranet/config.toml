@@ -253,33 +253,43 @@ paginate = 10
 
 [params.rafeatures]
     enable = true
+    class = "rafeatures"
 
 [params.features]
     enable = true
+    class = "home-features"
 
 [params.deskfeatures]
     enable = true
+    class = "deskfeatures"
   
 [params.contactfeatures]
     enable = true
+    class = "contactfeatures"
 
   [params.handbookfeatures]
       enable = true
+      class = "handbookfeatures"
 
   [params.reportfeatures]
       enable = true
+      class = "reportfeatures"
  
   [params.reservationfeatures]
       enable = true
+      class = "reservationfeatures"
 
   [params.programfeatures]
       enable = true
+      class = "programfeatures"
 
   [params.programspagefeatures]
       enable = true
+      class = "programspagefeatures"
 
   [params.requestsfeatures]
       enable = true
+      class = "requestsfeatures"
 
 [params.testimonials]
     enable = false

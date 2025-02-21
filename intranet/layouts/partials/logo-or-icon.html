@@ -1,5 +1,14 @@
-{{ if .logo }}
-    <img src="img/logos/{{ .logo }}" class="logo" alt="{{.name}} logo">
-{{ else }}
-    <i class="{{ .icon }}  {{ .name }}"></i>
-{{ end }}
+<div class="col-md-4">
+    <a href="{{ .context.url }}" target="_blank"> <div class="box-simple">
+        <div class="icon {{ .class }}">
+            {{ if .context.logo }}
+                <img src="img/logos/{{ .context.logo }}" class="logo" alt="{{.context.name}} logo">
+            {{ else }}
+                <i class="{{ .context.icon }}  {{ .context.name }}"></i>
+            {{ end }}
+
+        </div>
+        <h3>{{ .context.name }}</h3>
+        <p>{{ .context.description | markdownify }}</p>
+    </div></a>
+</div>

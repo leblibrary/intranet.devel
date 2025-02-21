@@ -10,15 +10,7 @@
 
             <div class="row">
 		{{ end }}
-				<div class="col-md-4">
-                    <a href="{{ .url }}" target="_blank"> <div class="box-simple">
-                        <div class="icon contactfeatures">
-                            {{partial "logo-or-icon.html" .}}
-                        </div>
-                        <h3>{{ $element.name }}</h3>
-                        <p>{{ $element.description | markdownify }}</p>
-                    </div></a>
-                </div>
+        {{partial "logo-or-icon.html" (dict "context" . "class" $.Site.Params.contactfeatures.class) }}
 		{{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.contactfeatures) 1 )) }}
 			</div>
 		</div>
